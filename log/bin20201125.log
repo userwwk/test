@@ -1,0 +1,2394 @@
+[20:18:06.453]|[337c]|[Startup]|
+*****************************************
+* Sunward Information Technology Co.Ltd *
+*      Website:   www.icafe8.com        *
+*      Telphone:  0571-88852727         *
+*      Fax:       0571-88853737         *
+*****************************************
+
+[20:18:06.514]|[337c]|[Info]|js_sw_init
+[20:18:06.576]|[337c]|[Info]|WinVer: 8 x64 Build Data: 2020-11-24 11:29:17
+[20:18:06.577]|[337c]|[Info]|Create Mgr=RentDrvMgr, this=0x02e66bd8, MgrCnt=1.
+[20:18:06.577]|[337c]|[Info]|Create Mgr=TestAliveMgr, this=0x02e71418, MgrCnt=1.
+[20:18:06.577]|[2f34]|[Info]|TestAliveMgr Init
+[20:18:06.578]|[337c]|[Info]|Thread Create Mgr=TestAliveMgr, this=0x02E71418, ThreadId=0x2f34.
+[20:18:06.578]|[269c]|[Info]|[RentDrvMgr] Init
+[20:18:06.579]|[337c]|[Info]|Thread Create Mgr=RentDrvMgr, this=0x02E66BD8, ThreadId=0x269c.
+[20:18:06.591]|[337c]|[Info]|Create Mgr=GameRenterMgr, this=0x02e79250, MgrCnt=3.
+[20:18:06.591]|[2f6c]|[Info]|[GameRenterMgr] Init
+[20:18:06.591]|[337c]|[Info]|Thread Create Mgr=GameRenterMgr, this=0x02E79250, ThreadId=0x2f6c.
+[20:18:06.603]|[337c]|[Info]|Create Mgr=ScreenCaptureMgr, this=0x02e7e140, MgrCnt=4.
+[20:18:06.603]|[337c]|[Info]|Thread Create Mgr=ScreenCaptureMgr, this=0x02E7E140, ThreadId=0x08fc.
+[20:18:06.604]|[337c]|[Info]|[SWApiMgr] Init
+[20:18:06.605]|[337c]|[Info]|[SWApiMgr] Init End
+[20:18:06.605]|[337c]|[Info]|Create Mgr=SWZHHelperMgr, this=0x02eb42f8, MgrCnt=5.
+[20:18:06.606]|[3290]|[Info]|[SWZHHelperMgr] Init
+[20:18:06.606]|[337c]|[Info]|Thread Create Mgr=SWZHHelperMgr, this=0x02EB42F8, ThreadId=0x3290.
+[20:18:06.606]|[337c]|[Info]|Create Mgr=ThreadMgr, this=0x02eb8ee8, MgrCnt=6.
+[20:18:06.607]|[337c]|[Info]|Thread Create Mgr=ThreadMgr, this=0x02EB8EE8, ThreadId=0x14b8.
+[20:18:06.607]|[337c]|[Info]|Create Mgr=SafeCheckMgr, this=0x02eb9ae0, MgrCnt=7.
+[20:18:06.607]|[2078]|[Info]|[SafeCheckMgr] Init
+[20:18:06.607]|[337c]|[Info]|Thread Create Mgr=SafeCheckMgr, this=0x02EB9AE0, ThreadId=0x2078.
+[20:18:06.607]|[337c]|[Info]|Create Mgr=SWProtectExMgr, this=0x02eba6b8, MgrCnt=8.
+[20:18:06.608]|[172c]|[Info]|[SWProtectExMgr] Init
+[20:18:06.608]|[337c]|[Info]|Thread Create Mgr=SWProtectExMgr, this=0x02EBA6B8, ThreadId=0x172c.
+[20:18:06.608]|[337c]|[Info]|Create Mgr=RenterCharge, this=0x02ebf2c8, MgrCnt=9.
+[20:18:06.608]|[2404]|[Info]|[RenterCharge] Init
+[20:18:06.609]|[337c]|[Info]|Thread Create Mgr=RenterCharge, this=0x02EBF2C8, ThreadId=0x2404.
+[20:18:06.609]|[337c]|[Info]|js_sw_init end
+[20:18:06.711]|[2404]|[Info]|[RenterCharge] ProcGetVersion timestamp=1606306686.
+[20:18:07.101]|[14b8]|[Info]|[ThreadMgr] ProcCollect Begin
+[20:18:07.363]|[2404]|[Info]|[RenterCharge] ProcGetVersion SafeScan=[
+	1,
+	5,
+	6,
+	7
+]
+
+[20:18:07.367]|[2404]|[Info]|Create Mgr=SafeCenterScanProcess, this=0x07f193a8, MgrCnt=10.
+[20:18:07.368]|[2904]|[Info]|[SafeCenterScanProcess] Init
+[20:18:07.368]|[2404]|[Info]|Thread Create Mgr=SafeCenterScanProcess, this=0x07F193A8, ThreadId=0x2904.
+[20:18:07.371]|[2904]|[Info]|[SafeCenterScanProcess] ProcLoadDll
+[20:18:07.378]|[2904]|[Info]|[SafeCenterScanProcess] Load SecurityCenterSdk.dll Success
+[20:18:07.379]|[2404]|[Info]|[SWProtectExMgr] ProcInit
+[20:18:07.388]|[2404]|[Info]|[SWProtectExMgr] Init : 1
+[20:18:07.390]|[2404]|[Info]|Create Mgr=SwDefenderMgr, this=0x0b390720, MgrCnt=11.
+[20:18:07.391]|[20e8]|[Info]|[SwDefenderMgr] Init
+[20:18:07.391]|[2404]|[Info]|Thread Create Mgr=SwDefenderMgr, this=0x0B390720, ThreadId=0x20e8.
+[20:18:07.563]|[2404]|[Info]|jsNotify code=9
+[20:18:07.563]|[2404]|[Info]|[RenterCharge] ProcGetVersion end.
+[20:18:07.563]|[2404]|[Warning]|ThreadMgr[RenterCharge] Func[ProcGetVersion] timeout, spend 843 ms,OwnThreadId=0x337c.
+[20:18:07.574]|[337c]|[Info]|webNotify code=9
+[20:18:07.610]|[3290]|[Info]|[SWZHHelperMgr] ProcInitDelay
+[20:18:07.611]|[2078]|[Info]|[SafeCheckMgr] ProcInit
+[20:18:08.144]|[3290]|[Info]|[SWZHHelperMgr] ProcInitDelay End
+[20:18:08.144]|[3290]|[Warning]|ThreadMgr[SWZHHelperMgr] Func[ProcInitDelay] timeout, spend 531 ms,OwnThreadId=0x337c.
+[20:18:08.329]|[08fc]|[Info]|[ScreenCaptureMgr] ScreenCapture Init ret=1
+[20:18:08.330]|[08fc]|[Info]|[ScreenCaptureMgr] ScreenCapture OffscreenSurface ret=1
+[20:18:08.655]|[3680]|[Info]|GetHttpJsonData Failed! url=http://127.0.0.1:9185/SWBasicInfo?callback=SWR_LOC_JSONP ret=-2
+[20:18:08.659]|[3680]|[Error]|swGetGuid GetHttpJsonData failed
+[20:18:09.341]|[14b8]|[Error]|GetHttpJsonData nRet=7
+[20:18:09.342]|[14b8]|[Error]|swGetPersonalId GetHttpJsonData failed
+[20:18:09.509]|[14b8]|[Info]|[SWZHHelperMgr] GetData
+[20:18:09.513]|[14b8]|[Info]|[SWZHHelperMgr] GetData
+[20:18:09.519]|[14b8]|[Info]|[SWZHHelperMgr] GetData
+[20:18:09.524]|[14b8]|[Info]|[SWZHHelperMgr] GetData
+[20:18:09.524]|[14b8]|[Info]|[ThreadMgr] ProcInit End
+[20:18:09.524]|[14b8]|[Warning]|ThreadMgr[ThreadMgr] Func[ProcCollect] timeout, spend 2422 ms,OwnThreadId=0x337c.
+[20:18:10.359]|[08fc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[ProcInitDelay] timeout, spend 2750 ms,OwnThreadId=0x337c.
+[20:18:12.298]|[20e8]|[Info]|[SwDefenderMgr] Sign=561 Sha256=2350
+[20:18:15.295]|[20e8]|[Info]|[SwDefenderMgr] EnableMoniter FileMonitor=0 SectionMonitor=1
+[20:18:16.537]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=9
+[20:18:16.922]|[2bdc]|[Info]|[SWApiMgr] ProcParseData
+[20:18:17.141]|[2bdc]|[Info]|[RenterCharge] ProcGetPluginDetectionData ParseData Ret=1
+[20:18:31.252]|[2904]|[Info]|[SafeCenterScanProcess] ScsInit Done
+[20:18:31.252]|[2904]|[Warning]|ThreadMgr[SafeCenterScanProcess] Func[ProcLoadDll] timeout, spend 23875 ms,OwnThreadId=0x2404.
+[20:18:31.272]|[2904]|[Info]|[SafeCenterScanProcess] ProcRegisterNotify
+[20:18:31.272]|[2904]|[Info]|[SafeCenterScanProcess] RegBlackProcessNotify status=0x00000000
+[20:18:32.273]|[2904]|[Info]|[SafeCenterScanProcess] RegBlackImageNotify status=0x00000000
+[20:18:32.569]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=10
+[20:18:33.274]|[2904]|[Info]|[SafeCenterScanProcess] RegProcessNotify status=0x00000000
+[20:18:34.275]|[2904]|[Info]|[SafeCenterScanProcess] RegImageNotify status=0x00000000
+[20:18:34.275]|[2904]|[Warning]|ThreadMgr[SafeCenterScanProcess] Func[ProcRegisterNotify] timeout, spend 3000 ms,OwnThreadId=0x2404.
+[20:18:40.586]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=11
+[20:18:56.607]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=12
+[20:19:04.621]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=13
+[20:19:20.648]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=14
+[20:19:28.659]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=15
+[20:19:44.682]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=16
+[20:19:52.708]|[3344]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=18
+[20:19:55.530]|[337c]|[Info]|jsMsgBox code=601 msg=
+[20:19:55.531]|[337c]|[Info]|webMsgbox code=601
+[20:19:55.531]|[337c]|[Info]|jsNotify code=2
+[20:19:55.531]|[337c]|[Info]|webNotify code=2
+[20:19:55.531]|[337c]|[Info]|js_sw_input_init bRemoveInjectFlag=0
+[20:19:55.531]|[337c]|[Info]|js_sw_decode cdkey=252401994713F60MBNEP StartGame=1
+[20:19:55.536]|[2404]|[Info]|jsMsgBox code=201 msg=
+[20:19:55.536]|[2f6c]|[Info]|[GameRenterMgr] ProcCheckOrderReset Interval=0
+[20:19:55.538]|[337c]|[Info]|webMsgbox code=201
+[20:19:55.547]|[2404]|[Info]|[RenterCharge] ProcValidateKey cdKey=252401994713F60MBNEP,cityId=0,timestamp=1606306795.
+[20:19:55.968]|[2404]|[Info]|jsNotify code=1
+[20:19:55.970]|[2404]|[Info]|[RenterCharge] ProcValidateKey SafeScan=[
+	1,
+	5,
+	7
+]
+
+[20:19:55.970]|[337c]|[Info]|webNotify code=1
+[20:19:55.972]|[2404]|[Info]|[RenterCharge] ProcValidateKey gameStartOrder=[
+	1
+]
+
+[20:19:55.973]|[2f6c]|[Info]|[GameRenterMgr] ProcReSetGameInfo
+[20:19:55.976]|[20e8]|[Info]|[SwDefenderMgr] ProcDisable
+[20:19:55.973]|[2404]|[Info]|jsMsgBox code=202 msg=
+[20:19:55.977]|[20e8]|[Info]|[SwDefenderMgr] EnableMoniter FileMonitor=0 SectionMonitor=0
+[20:19:55.977]|[2404]|[Info]|[RenterCharge] ProcValidateKey end, pkgId=11004 pkgName=穿越火线
+[20:19:55.982]|[337c]|[Info]|webMsgbox code=202
+[20:19:55.998]|[2404]|[Error]|ThreadMgrSEHExceptionHandle Info=ThreadId=0x2404,Name=RenterCharge,Func=ProcReportSwDefenderInfo,Detail=..
+[20:19:55.998]|[2404]|[Error]|ThreadMgrSEHExceptionHandle ExceptionCode=0xc0000005 ExceptionFlags=0,ExceptionAddress=672C6309,NumberParameters=2
+[20:19:55.998]|[2404]|[Error]|ThreadMgrSEHExceptionHandle ThreadMgr Exception Step=2.
+[20:19:55.998]|[2404]|[Error]|ThreadMgrSEHExceptionHandle ExceptionCode=0xc0000005 ExceptionFlags=0,ExceptionAddress=672C6309,NumberParameters=2
+[20:20:28.413]|[074c]|[Startup]|
+*****************************************
+* Sunward Information Technology Co.Ltd *
+*      Website:   www.icafe8.com        *
+*      Telphone:  0571-88852727         *
+*      Fax:       0571-88853737         *
+*****************************************
+
+[20:20:28.440]|[074c]|[Info]|js_sw_init
+[20:20:28.503]|[074c]|[Info]|WinVer: 8 x64 Build Data: 2020-11-24 11:29:17
+[20:20:28.504]|[074c]|[Info]|Create Mgr=RentDrvMgr, this=0x033586d8, MgrCnt=1.
+[20:20:28.504]|[074c]|[Info]|Create Mgr=TestAliveMgr, this=0x03361f18, MgrCnt=1.
+[20:20:28.505]|[2720]|[Info]|TestAliveMgr Init
+[20:20:28.505]|[074c]|[Info]|Thread Create Mgr=TestAliveMgr, this=0x03361F18, ThreadId=0x2720.
+[20:20:28.506]|[3460]|[Info]|[RentDrvMgr] Init
+[20:20:28.507]|[074c]|[Info]|Thread Create Mgr=RentDrvMgr, this=0x033586D8, ThreadId=0x3460.
+[20:20:28.517]|[074c]|[Info]|Create Mgr=GameRenterMgr, this=0x0336e250, MgrCnt=3.
+[20:20:28.517]|[350c]|[Info]|[GameRenterMgr] Init
+[20:20:28.517]|[074c]|[Info]|Thread Create Mgr=GameRenterMgr, this=0x0336E250, ThreadId=0x350c.
+[20:20:28.529]|[074c]|[Info]|Create Mgr=ScreenCaptureMgr, this=0x03373140, MgrCnt=4.
+[20:20:28.529]|[074c]|[Info]|Thread Create Mgr=ScreenCaptureMgr, this=0x03373140, ThreadId=0x24cc.
+[20:20:28.529]|[074c]|[Info]|[SWApiMgr] Init
+[20:20:28.531]|[074c]|[Info]|[SWApiMgr] Init End
+[20:20:28.531]|[074c]|[Info]|Create Mgr=SWZHHelperMgr, this=0x033af4a0, MgrCnt=5.
+[20:20:28.531]|[3288]|[Info]|[SWZHHelperMgr] Init
+[20:20:28.531]|[074c]|[Info]|Thread Create Mgr=SWZHHelperMgr, this=0x033AF4A0, ThreadId=0x3288.
+[20:20:28.532]|[074c]|[Info]|Create Mgr=ThreadMgr, this=0x033af9b8, MgrCnt=6.
+[20:20:28.532]|[074c]|[Info]|Thread Create Mgr=ThreadMgr, this=0x033AF9B8, ThreadId=0x1068.
+[20:20:28.532]|[074c]|[Info]|Create Mgr=SafeCheckMgr, this=0x0337fcc8, MgrCnt=7.
+[20:20:28.532]|[0614]|[Info]|[SafeCheckMgr] Init
+[20:20:28.532]|[074c]|[Info]|Thread Create Mgr=SafeCheckMgr, this=0x0337FCC8, ThreadId=0x0614.
+[20:20:28.533]|[074c]|[Info]|Create Mgr=SWProtectExMgr, this=0x033b05b0, MgrCnt=8.
+[20:20:28.533]|[24c8]|[Info]|[SWProtectExMgr] Init
+[20:20:28.533]|[074c]|[Info]|Thread Create Mgr=SWProtectExMgr, this=0x033B05B0, ThreadId=0x24c8.
+[20:20:28.533]|[074c]|[Info]|Create Mgr=RenterCharge, this=0x033b51c0, MgrCnt=9.
+[20:20:28.534]|[3284]|[Info]|[RenterCharge] Init
+[20:20:28.534]|[074c]|[Info]|Thread Create Mgr=RenterCharge, this=0x033B51C0, ThreadId=0x3284.
+[20:20:28.545]|[074c]|[Info]|js_sw_init end
+[20:20:28.647]|[3284]|[Info]|[RenterCharge] ProcGetVersion timestamp=1606306828.
+[20:20:29.037]|[1068]|[Info]|[ThreadMgr] ProcCollect Begin
+[20:20:29.536]|[3288]|[Info]|[SWZHHelperMgr] ProcInitDelay
+[20:20:29.537]|[0614]|[Info]|[SafeCheckMgr] ProcInit
+[20:20:29.999]|[3288]|[Info]|[SWZHHelperMgr] ProcInitDelay End
+[20:20:30.040]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenCapture Init ret=1
+[20:20:30.040]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenCapture OffscreenSurface ret=1
+[20:20:30.572]|[1be0]|[Info]|GetHttpJsonData Failed! url=http://127.0.0.1:9185/SWBasicInfo?callback=SWR_LOC_JSONP ret=-2
+[20:20:30.575]|[1be0]|[Error]|swGetGuid GetHttpJsonData failed
+[20:20:31.222]|[3284]|[Info]|[RenterCharge] ProcGetVersion SafeScan=[
+	1,
+	5,
+	6,
+	7
+]
+
+[20:20:31.224]|[3284]|[Info]|Create Mgr=SafeCenterScanProcess, this=0x07ff34d8, MgrCnt=10.
+[20:20:31.226]|[33fc]|[Info]|[SafeCenterScanProcess] Init
+[20:20:31.227]|[3284]|[Info]|Thread Create Mgr=SafeCenterScanProcess, this=0x07FF34D8, ThreadId=0x33fc.
+[20:20:31.227]|[33fc]|[Info]|[SafeCenterScanProcess] ProcLoadDll
+[20:20:31.236]|[33fc]|[Info]|[SafeCenterScanProcess] Load SecurityCenterSdk.dll Success
+[20:20:31.241]|[3284]|[Info]|[SWProtectExMgr] ProcInit
+[20:20:31.248]|[1068]|[Error]|GetHttpJsonData nRet=7
+[20:20:31.249]|[1068]|[Error]|swGetPersonalId GetHttpJsonData failed
+[20:20:31.261]|[3284]|[Info]|[SWProtectExMgr] Init : 1
+[20:20:31.275]|[3284]|[Info]|Create Mgr=SwDefenderMgr, this=0x0bcccc50, MgrCnt=11.
+[20:20:31.286]|[2be4]|[Info]|[SwDefenderMgr] Init
+[20:20:31.288]|[3284]|[Info]|Thread Create Mgr=SwDefenderMgr, this=0x0BCCCC50, ThreadId=0x2be4.
+[20:20:31.389]|[3284]|[Info]|jsNotify code=9
+[20:20:31.415]|[3284]|[Info]|[RenterCharge] ProcGetVersion end.
+[20:20:31.415]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcGetVersion] timeout, spend 2766 ms,OwnThreadId=0x074c.
+[20:20:31.446]|[1068]|[Info]|[SWZHHelperMgr] GetData
+[20:20:31.451]|[1068]|[Info]|[SWZHHelperMgr] GetData
+[20:20:31.456]|[1068]|[Info]|[SWZHHelperMgr] GetData
+[20:20:31.460]|[1068]|[Info]|[SWZHHelperMgr] GetData
+[20:20:31.460]|[1068]|[Info]|[ThreadMgr] ProcInit End
+[20:20:31.460]|[1068]|[Warning]|ThreadMgr[ThreadMgr] Func[ProcCollect] timeout, spend 2438 ms,OwnThreadId=0x074c.
+[20:20:31.490]|[33fc]|[Info]|[SafeCenterScanProcess] ScsInit Done
+[20:20:31.491]|[074c]|[Info]|webNotify code=9
+[20:20:31.863]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[ProcInitDelay] timeout, spend 2328 ms,OwnThreadId=0x074c.
+[20:20:32.228]|[33fc]|[Info]|[SafeCenterScanProcess] ProcRegisterNotify
+[20:20:32.228]|[33fc]|[Info]|[SafeCenterScanProcess] RegBlackProcessNotify status=0x00000000
+[20:20:32.791]|[074c]|[Info]|jsMsgBox code=601 msg=
+[20:20:32.792]|[074c]|[Info]|webMsgbox code=601
+[20:20:32.792]|[074c]|[Info]|jsNotify code=2
+[20:20:32.792]|[074c]|[Info]|webNotify code=2
+[20:20:32.792]|[074c]|[Info]|js_sw_input_init bRemoveInjectFlag=0
+[20:20:32.792]|[074c]|[Info]|js_sw_decode cdkey=252401994713F60MBNEP StartGame=1
+[20:20:32.793]|[3284]|[Info]|jsMsgBox code=201 msg=
+[20:20:32.793]|[350c]|[Info]|[GameRenterMgr] ProcCheckOrderReset Interval=0
+[20:20:32.796]|[074c]|[Info]|webMsgbox code=201
+[20:20:32.805]|[3284]|[Info]|[RenterCharge] ProcValidateKey cdKey=252401994713F60MBNEP,cityId=0,timestamp=1606306832.
+[20:20:33.229]|[33fc]|[Info]|[SafeCenterScanProcess] RegBlackImageNotify status=0x00000000
+[20:20:33.232]|[3284]|[Info]|jsNotify code=1
+[20:20:33.234]|[3284]|[Info]|[RenterCharge] ProcValidateKey SafeScan=[
+	1,
+	5,
+	7
+]
+
+[20:20:33.235]|[074c]|[Info]|webNotify code=1
+[20:20:33.235]|[3284]|[Info]|[RenterCharge] ProcValidateKey gameStartOrder=[
+	1
+]
+
+[20:20:33.237]|[350c]|[Info]|[GameRenterMgr] ProcReSetGameInfo
+[20:20:33.238]|[2be4]|[Info]|[SwDefenderMgr] ProcDisable
+[20:20:33.236]|[3284]|[Info]|jsMsgBox code=202 msg=
+[20:20:33.238]|[2be4]|[Info]|[SwDefenderMgr] EnableMoniter FileMonitor=0 SectionMonitor=0
+[20:20:33.238]|[3284]|[Info]|[RenterCharge] ProcValidateKey end, pkgId=11004 pkgName=穿越火线
+[20:20:33.240]|[14d4]|[Info]|[SwDefenderMgr] Exit ProcessFilterThread
+[20:20:33.246]|[074c]|[Info]|webMsgbox code=202
+[20:20:34.229]|[33fc]|[Info]|[SafeCenterScanProcess] RegProcessNotify status=0x00000000
+[20:20:34.251]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:20:35.229]|[33fc]|[Info]|[SafeCenterScanProcess] RegImageNotify status=0x00000000
+[20:20:35.229]|[33fc]|[Warning]|ThreadMgr[SafeCenterScanProcess] Func[ProcRegisterNotify] timeout, spend 3000 ms,OwnThreadId=0x3284.
+[20:20:35.619]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:20:35.620]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[ProcCreateOSSDir] timeout, spend 2391 ms,OwnThreadId=0x3284.
+[20:20:36.315]|[2be4]|[Info]|[SwDefenderMgr] Sign=561 Sha256=2350
+[20:20:39.312]|[2be4]|[Info]|[SwDefenderMgr] EnableMoniter FileMonitor=0 SectionMonitor=1
+[20:20:40.285]|[3404]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=9
+[20:20:42.100]|[28a4]|[Info]|[SWApiMgr] ProcParseData
+[20:20:42.337]|[28a4]|[Info]|[RenterCharge] ProcGetPluginDetectionData ParseData Ret=1
+[20:20:49.269]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:20:49.934]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:20:49.934]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 765 ms,OwnThreadId=0x24cc.
+[20:20:56.319]|[3404]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=10
+[20:20:58.244]|[350c]|[Info]|[SWApiMgr] ProcParseData
+[20:20:58.867]|[350c]|[Info]|[RenterCharge] ProcGetPluginDetectionGameData PkgId=11004 ParseData Ret=1
+[20:20:58.867]|[350c]|[Warning]|ThreadMgr[GameRenterMgr] Func[ProcReSetGameInfo] timeout, spend 25641 ms,OwnThreadId=0x3284.
+[20:20:58.888]|[350c]|[Info]|[GameRenterMgr] ProcPreStartGame
+[20:20:58.890]|[350c]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=8354
+[20:20:58.891]|[350c]|[Error]|GetIcafeGamePath LoadLibrary failed
+[20:20:58.891]|[350c]|[Info]|[GameRenterMgr] StartGame GetIcafeGamePath PkgId=11004 gameIdPlatForm=17041 gameStartType=1 Path= MainExe=
+[20:20:58.891]|[350c]|[Info]|[GameRenterMgr] StartGame GamePather strMainExe=D:\Program Files (x86)\WeGame\wegame.exe FindGamePath=1
+[20:20:58.891]|[350c]|[Info]|jsMsgBox code=602 msg=
+[20:20:58.892]|[3284]|[Info]|[RenterCharge] ProcNotifyStatus timestamp=1606306858,cdkey=252401994713F60MBNEP,status=1
+[20:20:58.896]|[074c]|[Info]|webMsgbox code=602
+[20:20:58.898]|[350c]|[Info]|[GameRenterMgr] SafeCenter Scan Begin
+[20:20:58.898]|[350c]|[Info]|[SafeCenterScanProcess] ProcOrderInfo orderNo=GLZUHAO20201125201937430KI8RSF
+[20:20:58.900]|[350c]|[Info]|[SafeCenterScanProcess] ProcScanGetResult PkgId=11004
+[20:20:58.900]|[350c]|[Info]|[GameRenterMgr] SafeCenter End
+[20:20:58.900]|[350c]|[Info]|[GameRenterMgr] SWProtectEx Begin
+[20:20:58.900]|[350c]|[Info]|[SWProtectExMgr] StopProtectService Begin
+[20:20:58.900]|[350c]|[Info]|[SWProtectExMgr] StopProtectService : 0
+[20:20:58.902]|[350c]|[Info]|[SWProtectExMgr] ProcSetScanIntervalTime
+[20:21:04.320]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:21:04.345]|[3404]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=11
+[20:21:05.064]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:21:05.064]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 859 ms,OwnThreadId=0x24cc.
+[20:21:19.363]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:21:20.046]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:21:20.046]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 813 ms,OwnThreadId=0x24cc.
+[20:21:20.373]|[350c]|[Info]|[SWProtectExMgr] SetScanIntervalTime : 1
+[20:21:20.373]|[350c]|[Info]|[GameRenterMgr] SWProtectEx End
+[20:21:20.373]|[24c8]|[Info]|[SWProtectExMgr] ProcCreateProtectService
+[20:21:28.400]|[3404]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=12
+[20:21:30.373]|[350c]|[Info]|[GameRenterMgr] WaitScan Time out
+[20:21:30.373]|[350c]|[Info]|[GameRenterMgr] Scan Result 0
+[20:21:34.334]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:21:35.261]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:21:35.261]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1031 ms,OwnThreadId=0x24cc.
+[20:21:36.409]|[24c8]|[Error]|[SWProtectExMgr] CreateProtectService Err=1
+[20:21:36.409]|[24c8]|[Warning]|ThreadMgr[SWProtectExMgr] Func[ProcCreateProtectService] timeout, spend 16031 ms,OwnThreadId=0x350c.
+[20:21:49.365]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:21:49.822]|[350c]|[Info]|jsMsgBox code=603 msg=
+[20:21:49.825]|[074c]|[Info]|webMsgbox code=603
+[20:21:49.829]|[1b90]|[Info]|GameSimulator StartType=1 GamePath=D:\Program Files (x86)\WeGame MainExe=D:\Program Files (x86)\WeGame\wegame.exe
+[20:21:49.829]|[350c]|[Warning]|ThreadMgr[GameRenterMgr] Func[ProcPreStartGame] timeout, spend 50938 ms,OwnThreadId=0x3284.
+[20:21:49.850]|[350c]|[Info]|[GameRenterMgr] ProcStartOrder order=0 strGamePath=D:\Program Files (x86)\WeGame nRemainTime=8354 login_exe=NTCLS\ntcls_daemon.exe
+[20:21:49.851]|[350c]|[Info]|[SWZHHelperMgr] SetCallBackLoginState
+[20:21:49.853]|[350c]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=sso-off
+[20:21:49.939]|[350c]|[Info]|[GameWeGameMemory] ResumeThread Ok
+[20:21:49.939]|[350c]|[Info]|[RentDrvMgr] StartMonitor
+[20:21:49.939]|[350c]|[Info]|[RentDrvMgr] AddProcessInfo
+[20:21:49.939]|[350c]|[Info]|[RentDrvMgr] AddProcessInfo
+[20:21:49.939]|[350c]|[Info]|[RentDrvMgr] AddProcessInfo
+[20:21:49.939]|[350c]|[Info]|[RentDrvMgr] AddProcessInfo
+[20:21:49.941]|[350c]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:21:49.941]|[350c]|[Info]|[RentDrvMgr] StartMonitor
+[20:21:49.941]|[350c]|[Info]|[GameRenterMgr] ProcCheckOrderReset Interval=60
+[20:21:49.942]|[350c]|[Info]|jsMsgBox code=604 msg=
+[20:21:49.947]|[074c]|[Info]|webMsgbox code=604
+[20:21:51.000]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:21:51.000]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1735 ms,OwnThreadId=0x24cc.
+[20:21:51.971]|[350c]|[Info]|[GameRenterMgr] ProcCheckLoginReady Begin
+[20:21:51.994]|[350c]|[Info]|[GameRenterMgr] ProcCheckLoginReady FindLoginExe
+[20:21:52.017]|[350c]|[Info]|[GameRenterMgr] ProcLoginGame orderStart=1
+[20:21:52.018]|[350c]|[Info]|[GameWeGameMemory] PerpareLogin
+[20:21:52.018]|[350c]|[Info]|[GameWeGameMemory] PerpareLoginBegin TryLoginCounts=0
+[20:21:52.441]|[3404]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=13
+[20:22:00.451]|[3404]|[Warning]|[SWProtectExMgr] InsertFeaturesA Failed DesTag=14
+[20:22:00.508]|[3404]|[Info]|[SWProtectExMgr] Load SWProtectEx Data Finish RuleCount=57
+[20:22:01.035]|[350c]|[Info]|[GameWeGameMemory] loginWidth=862 loginHeight=486
+[20:22:01.072]|[350c]|[Info]|[GameWeGameMemory] LoginWnd=0x000b04c4 x=726 y=426
+[20:22:04.406]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:22:06.394]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:22:06.394]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 2125 ms,OwnThreadId=0x24cc.
+[20:22:07.164]|[350c]|[Info]|[GameWeGameMemory] InputAccount LoginWnd = 0x000B04C4
+[20:22:08.242]|[350c]|[Info]|[GameWeGameMemory] LoginWnd=0x000b04c4 x=798 y=216
+[20:22:09.210]|[350c]|[Info]|[GameWeGameMemory] InputPassword LoginWnd = 0x000B04C4
+[20:22:09.212]|[350c]|[Info]|[SWZHHelperMgr] SetLogin PkgId=11004
+[20:22:09.218]|[350c]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=rank-on
+[20:22:09.221]|[350c]|[Info]|[GameWeGameMemory] EnterGame LoginWnd = 0x000B04C4
+[20:22:09.263]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:22:11.545]|[350c]|[Info]|[GameWeGameMemory] LoginGame LoginWnd=0x000b04c4 x=694 y=331
+[20:22:11.653]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:22:11.653]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[ScreenShotUpload] timeout, spend 2500 ms,OwnThreadId=0x350c.
+[20:22:13.834]|[350c]|[Info]|[GameWeGameMemory] LoginGame LoginWnd=0x000b04c4 x=694 y=331
+[20:22:15.835]|[350c]|[Info]|jsNotify code=3
+[20:22:15.843]|[074c]|[Info]|webNotify code=3
+[20:22:15.843]|[074c]|[Info]|js_sw_input_uninit
+[20:22:19.429]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:22:21.949]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:22:21.949]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 2672 ms,OwnThreadId=0x24cc.
+[20:22:31.208]|[3218]|[Info]|WeGameQuickLogin errorCode=1 msg=登录成功
+[20:22:31.209]|[3284]|[Info]|[RenterCharge] ProcNotifyStatus timestamp=1606306951,cdkey=252401994713F60MBNEP,status=101
+[20:22:31.729]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcNotifyStatus] timeout, spend 531 ms,OwnThreadId=0x3218.
+[20:22:31.732]|[3284]|[Info]|[RenterCharge] ProcNotifyStatus timestamp=1606306951,cdkey=252401994713F60MBNEP,status=14
+[20:22:31.849]|[1b90]|[Info]|[GameRenterMgr] WaitLogin Finish
+[20:22:31.849]|[1b90]|[Info]|jsNotify code=3
+[20:22:31.849]|[350c]|[Info]|[GameRenterMgr] ProcLoginGame end RemainTime=8354 LoginStatus=1
+[20:22:31.849]|[350c]|[Info]|[GameWeGameMemory] Exit
+[20:22:31.850]|[350c]|[Warning]|ThreadMgr[GameRenterMgr] Func[ProcLoginGame] timeout, spend 39844 ms,OwnThreadId=0x350c.
+[20:22:31.852]|[074c]|[Info]|webNotify code=3
+[20:22:31.852]|[074c]|[Info]|Not InputInitialize Flag=0
+[20:22:31.962]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:22:34.584]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:22:34.584]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[ScreenShotUpload] timeout, spend 2734 ms,OwnThreadId=0x350c.
+[20:22:34.722]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:22:37.263]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:22:37.263]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 2656 ms,OwnThreadId=0x24cc.
+[20:22:49.760]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:22:50.572]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:22:50.576]|[3284]|[Info]|jsNotify code=7
+[20:22:50.576]|[3284]|[Info]|[RenterCharge] RemainTime=8217
+[20:22:50.577]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:22:50.580]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=8277
+[20:22:50.582]|[3284]|[Info]|jsNotify code=4
+[20:22:50.582]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcOrderStatus] timeout, spend 609 ms,OwnThreadId=0x350c.
+[20:22:50.585]|[074c]|[Info]|webNotify code=7
+[20:22:50.585]|[074c]|[Info]|webNotify code=4
+[20:22:52.849]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:22:52.849]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 3219 ms,OwnThreadId=0x24cc.
+[20:22:55.889]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 6015 ms,OwnThreadId=0x0614.
+[20:23:04.823]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:23:09.304]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:23:09.305]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 4656 ms,OwnThreadId=0x24cc.
+[20:23:19.806]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:23:29.035]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:23:29.036]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 9359 ms,OwnThreadId=0x24cc.
+[20:23:34.794]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:23:36.511]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:23:36.511]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1812 ms,OwnThreadId=0x24cc.
+[20:23:49.783]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:23:54.623]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4735 ms,OwnThreadId=0x0614.
+[20:23:57.159]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:23:57.163]|[3284]|[Info]|jsNotify code=7
+[20:23:57.163]|[3284]|[Info]|[RenterCharge] RemainTime=8150
+[20:23:57.164]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:23:57.166]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=8210
+[20:23:57.168]|[3284]|[Info]|jsNotify code=4
+[20:23:57.168]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcOrderStatus] timeout, spend 7172 ms,OwnThreadId=0x350c.
+[20:23:57.171]|[074c]|[Info]|webNotify code=7
+[20:23:57.171]|[074c]|[Info]|webNotify code=4
+[20:24:00.434]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:24:00.435]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 10734 ms,OwnThreadId=0x24cc.
+[20:24:04.870]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:24:05.292]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:24:05.292]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:24:19.875]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:24:20.479]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:24:20.480]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 734 ms,OwnThreadId=0x24cc.
+[20:24:34.853]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:24:35.187]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:24:49.912]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:24:50.168]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:24:50.171]|[3284]|[Info]|jsNotify code=7
+[20:24:50.171]|[3284]|[Info]|[RenterCharge] RemainTime=8097
+[20:24:50.171]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:24:50.173]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=8157
+[20:24:50.175]|[3284]|[Info]|jsNotify code=4
+[20:24:50.177]|[074c]|[Info]|webNotify code=7
+[20:24:50.177]|[074c]|[Info]|webNotify code=4
+[20:24:50.324]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:24:50.324]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[20:24:57.967]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 8047 ms,OwnThreadId=0x0614.
+[20:25:04.905]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:25:05.222]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:25:19.932]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:25:20.386]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:25:20.387]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:25:34.942]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:25:35.351]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:25:35.351]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[20:25:50.008]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:25:50.220]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:25:50.222]|[3284]|[Info]|jsNotify code=7
+[20:25:50.223]|[3284]|[Info]|[RenterCharge] RemainTime=8037
+[20:25:50.223]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:25:50.225]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=8097
+[20:25:50.226]|[3284]|[Info]|jsNotify code=4
+[20:25:50.231]|[074c]|[Info]|webNotify code=7
+[20:25:50.231]|[074c]|[Info]|webNotify code=4
+[20:25:50.505]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:25:50.505]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 641 ms,OwnThreadId=0x24cc.
+[20:26:00.434]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 10484 ms,OwnThreadId=0x0614.
+[20:26:05.020]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:26:05.515]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:26:05.516]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:26:20.032]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:26:20.450]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:26:20.450]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[20:26:35.058]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:26:35.517]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:26:35.517]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:26:50.090]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:26:50.238]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:26:50.240]|[3284]|[Info]|jsNotify code=7
+[20:26:50.240]|[3284]|[Info]|[RenterCharge] RemainTime=7977
+[20:26:50.240]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:26:50.242]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=8037
+[20:26:50.241]|[074c]|[Info]|webNotify code=7
+[20:26:50.243]|[3284]|[Info]|jsNotify code=4
+[20:26:50.254]|[074c]|[Info]|webNotify code=4
+[20:26:50.520]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:26:50.520]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 546 ms,OwnThreadId=0x24cc.
+[20:26:55.266]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5312 ms,OwnThreadId=0x0614.
+[20:27:05.097]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:27:05.568]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:27:05.568]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:27:20.148]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:27:20.613]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:27:20.613]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:27:35.209]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:27:35.665]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:27:35.665]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:27:50.224]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:27:50.241]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:27:50.243]|[3284]|[Info]|jsNotify code=7
+[20:27:50.243]|[3284]|[Info]|[RenterCharge] RemainTime=7917
+[20:27:50.243]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:27:50.246]|[074c]|[Info]|webNotify code=7
+[20:27:50.246]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7977
+[20:27:50.247]|[3284]|[Info]|jsNotify code=4
+[20:27:50.257]|[074c]|[Info]|webNotify code=4
+[20:27:50.688]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:27:50.688]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 640 ms,OwnThreadId=0x24cc.
+[20:27:55.768]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5781 ms,OwnThreadId=0x0614.
+[20:28:05.208]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:28:05.670]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:28:05.670]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:28:20.220]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:28:20.819]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:28:20.819]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[20:28:35.218]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:28:35.506]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:28:50.267]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:28:50.270]|[3284]|[Info]|jsNotify code=7
+[20:28:50.270]|[3284]|[Info]|[RenterCharge] RemainTime=7857
+[20:28:50.270]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:28:50.273]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7917
+[20:28:50.275]|[3284]|[Info]|jsNotify code=4
+[20:28:50.276]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:28:50.278]|[074c]|[Info]|webNotify code=7
+[20:28:50.278]|[074c]|[Info]|webNotify code=4
+[20:28:50.839]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:28:50.840]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 704 ms,OwnThreadId=0x24cc.
+[20:28:55.709]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5735 ms,OwnThreadId=0x0614.
+[20:29:05.276]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:29:05.736]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:29:05.736]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:29:20.300]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:29:20.801]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:29:20.801]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 641 ms,OwnThreadId=0x24cc.
+[20:29:35.316]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:29:35.720]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:29:35.720]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 532 ms,OwnThreadId=0x24cc.
+[20:29:50.279]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:29:50.282]|[3284]|[Info]|jsNotify code=7
+[20:29:50.282]|[3284]|[Info]|[RenterCharge] RemainTime=7797
+[20:29:50.282]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:29:50.284]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7857
+[20:29:50.285]|[3284]|[Info]|jsNotify code=4
+[20:29:50.292]|[074c]|[Info]|webNotify code=7
+[20:29:50.292]|[074c]|[Info]|webNotify code=4
+[20:29:50.344]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:29:50.883]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:29:50.883]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[20:29:55.738]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5734 ms,OwnThreadId=0x0614.
+[20:30:05.309]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:30:05.540]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:30:20.350]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:30:20.627]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:30:35.387]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:30:35.820]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:30:35.820]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 563 ms,OwnThreadId=0x24cc.
+[20:30:50.290]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:30:50.292]|[3284]|[Info]|jsNotify code=7
+[20:30:50.292]|[3284]|[Info]|[RenterCharge] RemainTime=7737
+[20:30:50.293]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:30:50.293]|[074c]|[Info]|webNotify code=7
+[20:30:50.295]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7797
+[20:30:50.297]|[3284]|[Info]|jsNotify code=4
+[20:30:50.304]|[074c]|[Info]|webNotify code=4
+[20:30:50.440]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:30:50.853]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:30:50.853]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:30:55.713]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5704 ms,OwnThreadId=0x0614.
+[20:31:05.436]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:31:05.841]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:31:05.841]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 532 ms,OwnThreadId=0x24cc.
+[20:31:20.462]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:31:20.908]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:31:20.909]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:31:35.480]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:31:35.986]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:31:35.986]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:31:50.340]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:31:50.342]|[3284]|[Info]|jsNotify code=7
+[20:31:50.342]|[3284]|[Info]|[RenterCharge] RemainTime=7677
+[20:31:50.343]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:31:50.344]|[074c]|[Info]|webNotify code=7
+[20:31:50.344]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7737
+[20:31:50.346]|[3284]|[Info]|jsNotify code=4
+[20:31:50.356]|[074c]|[Info]|webNotify code=4
+[20:31:50.505]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:31:50.833]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:31:55.708]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5672 ms,OwnThreadId=0x0614.
+[20:32:05.526]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:32:05.993]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:32:05.993]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 610 ms,OwnThreadId=0x24cc.
+[20:32:20.558]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:32:21.061]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:32:21.061]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 640 ms,OwnThreadId=0x24cc.
+[20:32:35.600]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:32:36.062]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:32:36.062]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:32:50.331]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:32:50.334]|[3284]|[Info]|jsNotify code=7
+[20:32:50.334]|[3284]|[Info]|[RenterCharge] RemainTime=7617
+[20:32:50.334]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:32:50.336]|[074c]|[Info]|webNotify code=7
+[20:32:50.337]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7677
+[20:32:50.338]|[3284]|[Info]|jsNotify code=4
+[20:32:50.348]|[074c]|[Info]|webNotify code=4
+[20:32:50.617]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:32:51.085]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:32:51.085]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:32:55.752]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5703 ms,OwnThreadId=0x0614.
+[20:33:05.623]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:33:05.961]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:33:20.643]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:33:21.109]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:33:21.110]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 609 ms,OwnThreadId=0x24cc.
+[20:33:35.633]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:33:36.126]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:33:36.127]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 610 ms,OwnThreadId=0x24cc.
+[20:33:50.331]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:33:50.334]|[3284]|[Info]|jsNotify code=7
+[20:33:50.334]|[3284]|[Info]|[RenterCharge] RemainTime=7557
+[20:33:50.334]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:33:50.336]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7617
+[20:33:50.338]|[3284]|[Info]|jsNotify code=4
+[20:33:50.343]|[074c]|[Info]|webNotify code=7
+[20:33:50.343]|[074c]|[Info]|webNotify code=4
+[20:33:50.700]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:33:51.111]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:33:51.111]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 562 ms,OwnThreadId=0x24cc.
+[20:33:55.810]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5750 ms,OwnThreadId=0x0614.
+[20:34:05.715]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:34:06.330]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:34:06.330]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 766 ms,OwnThreadId=0x24cc.
+[20:34:20.728]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:34:21.320]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:34:21.320]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 734 ms,OwnThreadId=0x24cc.
+[20:34:35.739]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:34:36.321]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:34:36.321]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[20:34:50.364]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:34:50.366]|[3284]|[Info]|jsNotify code=7
+[20:34:50.366]|[3284]|[Info]|[RenterCharge] RemainTime=7497
+[20:34:50.366]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:34:50.368]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7557
+[20:34:50.369]|[074c]|[Info]|webNotify code=7
+[20:34:50.369]|[3284]|[Info]|jsNotify code=4
+[20:34:50.380]|[074c]|[Info]|webNotify code=4
+[20:34:50.785]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:34:51.201]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:34:51.201]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 563 ms,OwnThreadId=0x24cc.
+[20:34:55.048]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4969 ms,OwnThreadId=0x0614.
+[20:35:05.824]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:35:06.336]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:35:06.336]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:35:20.825]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:35:21.288]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:35:21.289]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 610 ms,OwnThreadId=0x24cc.
+[20:35:35.855]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:35:36.430]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:35:36.430]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[20:35:50.414]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:35:50.417]|[3284]|[Info]|jsNotify code=7
+[20:35:50.417]|[3284]|[Info]|[RenterCharge] RemainTime=7437
+[20:35:50.417]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:35:50.419]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7497
+[20:35:50.420]|[3284]|[Info]|jsNotify code=4
+[20:35:50.421]|[074c]|[Info]|webNotify code=7
+[20:35:50.421]|[074c]|[Info]|webNotify code=4
+[20:35:50.864]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:35:51.370]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:35:51.371]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:35:59.499]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 9406 ms,OwnThreadId=0x0614.
+[20:36:05.890]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:36:06.428]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:36:06.428]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[20:36:20.886]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:36:21.346]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:36:21.346]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:36:35.904]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:36:36.364]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:36:36.364]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:36:50.405]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:36:50.407]|[3284]|[Info]|jsNotify code=7
+[20:36:50.407]|[3284]|[Info]|[RenterCharge] RemainTime=7377
+[20:36:50.408]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:36:50.409]|[074c]|[Info]|webNotify code=7
+[20:36:50.411]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7437
+[20:36:50.412]|[3284]|[Info]|jsNotify code=4
+[20:36:50.422]|[074c]|[Info]|webNotify code=4
+[20:36:50.940]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:36:51.402]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:36:51.402]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 609 ms,OwnThreadId=0x24cc.
+[20:36:55.962]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5860 ms,OwnThreadId=0x0614.
+[20:37:05.938]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:37:06.254]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:37:20.954]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:37:21.328]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:37:36.015]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:37:36.613]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:37:36.613]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[20:37:50.428]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:37:50.430]|[3284]|[Info]|jsNotify code=7
+[20:37:50.430]|[3284]|[Info]|[RenterCharge] RemainTime=7317
+[20:37:50.431]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:37:50.433]|[074c]|[Info]|webNotify code=7
+[20:37:50.435]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7377
+[20:37:50.436]|[3284]|[Info]|jsNotify code=4
+[20:37:50.445]|[074c]|[Info]|webNotify code=4
+[20:37:50.992]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:37:51.366]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:37:51.366]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 516 ms,OwnThreadId=0x24cc.
+[20:37:55.761]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5640 ms,OwnThreadId=0x0614.
+[20:38:06.008]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:38:06.540]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:38:06.541]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:38:21.016]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:38:21.493]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:38:21.493]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 610 ms,OwnThreadId=0x24cc.
+[20:38:36.063]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:38:36.505]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:38:36.505]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:38:50.458]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:38:50.460]|[3284]|[Info]|jsNotify code=7
+[20:38:50.460]|[3284]|[Info]|[RenterCharge] RemainTime=7257
+[20:38:50.460]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:38:50.462]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7317
+[20:38:50.463]|[3284]|[Info]|jsNotify code=4
+[20:38:50.464]|[074c]|[Info]|webNotify code=7
+[20:38:50.464]|[074c]|[Info]|webNotify code=4
+[20:38:51.090]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:38:51.550]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:38:51.550]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:38:55.854]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5719 ms,OwnThreadId=0x0614.
+[20:39:06.102]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:39:06.441]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:39:21.120]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:39:21.582]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:39:21.582]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:39:36.157]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:39:36.734]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:39:36.734]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[20:39:50.451]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:39:50.453]|[3284]|[Info]|jsNotify code=7
+[20:39:50.453]|[3284]|[Info]|[RenterCharge] RemainTime=7196
+[20:39:50.453]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:39:50.455]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7256
+[20:39:50.457]|[3284]|[Info]|jsNotify code=4
+[20:39:50.461]|[074c]|[Info]|webNotify code=7
+[20:39:50.461]|[074c]|[Info]|webNotify code=4
+[20:39:51.144]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:39:51.578]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:39:51.578]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 563 ms,OwnThreadId=0x24cc.
+[20:39:55.686]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5531 ms,OwnThreadId=0x0614.
+[20:40:06.175]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:40:06.714]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:40:06.714]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:40:21.210]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:40:21.662]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:40:21.663]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:40:36.236]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:40:36.649]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:40:36.650]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[20:40:50.489]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:40:50.492]|[3284]|[Info]|jsNotify code=7
+[20:40:50.492]|[3284]|[Info]|[RenterCharge] RemainTime=7137
+[20:40:50.492]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:40:50.493]|[074c]|[Info]|webNotify code=7
+[20:40:50.494]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7197
+[20:40:50.496]|[3284]|[Info]|jsNotify code=4
+[20:40:50.506]|[074c]|[Info]|webNotify code=4
+[20:40:51.292]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:40:51.802]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:40:51.802]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:40:55.956]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5766 ms,OwnThreadId=0x0614.
+[20:41:06.284]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:41:06.692]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:41:06.692]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[20:41:21.285]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:41:21.563]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:41:36.325]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:41:36.848]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:41:36.848]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:41:50.525]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:41:50.528]|[3284]|[Info]|jsNotify code=7
+[20:41:50.528]|[3284]|[Info]|[RenterCharge] RemainTime=7077
+[20:41:50.528]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:41:50.530]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7137
+[20:41:50.531]|[3284]|[Info]|jsNotify code=4
+[20:41:50.539]|[074c]|[Info]|webNotify code=7
+[20:41:50.539]|[074c]|[Info]|webNotify code=4
+[20:41:51.377]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:41:51.937]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:41:51.937]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 734 ms,OwnThreadId=0x24cc.
+[20:41:56.007]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5796 ms,OwnThreadId=0x0614.
+[20:42:06.343]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:42:06.669]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:42:21.367]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:42:21.781]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:42:21.781]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[20:42:36.407]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:42:37.459]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:42:37.460]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1204 ms,OwnThreadId=0x24cc.
+[20:42:50.502]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:42:50.504]|[3284]|[Info]|jsNotify code=7
+[20:42:50.504]|[3284]|[Info]|[RenterCharge] RemainTime=7017
+[20:42:50.504]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:42:50.506]|[074c]|[Info]|webNotify code=7
+[20:42:50.507]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7077
+[20:42:50.508]|[3284]|[Info]|jsNotify code=4
+[20:42:50.519]|[074c]|[Info]|webNotify code=4
+[20:42:51.445]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:42:51.924]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:42:51.924]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:42:55.848]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5610 ms,OwnThreadId=0x0614.
+[20:43:06.421]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:43:06.880]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:43:06.880]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 563 ms,OwnThreadId=0x24cc.
+[20:43:21.440]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:43:21.939]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:43:21.939]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 609 ms,OwnThreadId=0x24cc.
+[20:43:36.464]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:43:36.879]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:43:36.879]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[20:43:50.560]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:43:50.562]|[3284]|[Info]|jsNotify code=7
+[20:43:50.562]|[3284]|[Info]|[RenterCharge] RemainTime=6957
+[20:43:50.562]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:43:50.564]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=7017
+[20:43:50.565]|[3284]|[Info]|jsNotify code=4
+[20:43:50.570]|[074c]|[Info]|webNotify code=7
+[20:43:50.570]|[074c]|[Info]|webNotify code=4
+[20:43:51.504]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:43:51.951]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:43:51.951]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:43:55.272]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5016 ms,OwnThreadId=0x0614.
+[20:44:06.542]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:44:07.015]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:44:07.015]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 640 ms,OwnThreadId=0x24cc.
+[20:44:21.530]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:44:22.026]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:44:22.027]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:44:36.554]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:44:37.096]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:44:37.096]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:44:50.588]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:44:50.590]|[3284]|[Info]|jsNotify code=7
+[20:44:50.590]|[3284]|[Info]|[RenterCharge] RemainTime=6896
+[20:44:50.590]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:44:50.592]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6956
+[20:44:50.593]|[3284]|[Info]|jsNotify code=4
+[20:44:50.594]|[074c]|[Info]|webNotify code=7
+[20:44:50.594]|[074c]|[Info]|webNotify code=4
+[20:44:51.576]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:44:52.081]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:44:52.081]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[20:44:55.955]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5656 ms,OwnThreadId=0x0614.
+[20:45:06.594]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:45:07.091]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:45:07.092]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 641 ms,OwnThreadId=0x24cc.
+[20:45:21.612]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:45:21.983]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:45:36.635]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:45:37.138]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:45:37.138]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 640 ms,OwnThreadId=0x24cc.
+[20:45:50.633]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:45:50.636]|[3284]|[Info]|jsNotify code=7
+[20:45:50.636]|[3284]|[Info]|[RenterCharge] RemainTime=6837
+[20:45:50.637]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:45:50.640]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6897
+[20:45:50.638]|[074c]|[Info]|webNotify code=7
+[20:45:50.641]|[3284]|[Info]|jsNotify code=4
+[20:45:50.652]|[074c]|[Info]|webNotify code=4
+[20:45:51.640]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:45:51.915]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:45:55.961]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5657 ms,OwnThreadId=0x0614.
+[20:46:06.660]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:46:07.328]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:46:07.328]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[20:46:21.667]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:46:22.117]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:46:22.117]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:46:36.708]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:46:37.259]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:46:37.259]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[20:46:50.981]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:46:50.984]|[3284]|[Info]|jsNotify code=7
+[20:46:50.984]|[3284]|[Info]|[RenterCharge] RemainTime=6776
+[20:46:50.984]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:46:50.986]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6836
+[20:46:50.987]|[3284]|[Info]|jsNotify code=4
+[20:46:50.987]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcOrderStatus] timeout, spend 515 ms,OwnThreadId=0x350c.
+[20:46:50.993]|[074c]|[Info]|webNotify code=7
+[20:46:50.993]|[074c]|[Info]|webNotify code=4
+[20:46:51.731]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:46:52.250]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:46:52.250]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:46:56.414]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 6094 ms,OwnThreadId=0x0614.
+[20:47:06.735]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:47:07.279]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:47:07.279]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 687 ms,OwnThreadId=0x24cc.
+[20:47:21.776]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:47:22.481]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:47:22.481]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 859 ms,OwnThreadId=0x24cc.
+[20:47:36.778]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:47:37.281]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:47:37.282]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 641 ms,OwnThreadId=0x24cc.
+[20:47:50.629]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:47:50.633]|[3284]|[Info]|jsNotify code=7
+[20:47:50.633]|[3284]|[Info]|[RenterCharge] RemainTime=6716
+[20:47:50.633]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:47:50.635]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6776
+[20:47:50.636]|[3284]|[Info]|jsNotify code=4
+[20:47:50.642]|[074c]|[Info]|webNotify code=7
+[20:47:50.642]|[074c]|[Info]|webNotify code=4
+[20:47:51.817]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:47:52.323]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:47:52.323]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[20:47:56.133]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5796 ms,OwnThreadId=0x0614.
+[20:48:06.824]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:48:07.278]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:48:07.278]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:48:21.852]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:48:22.345]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:48:22.345]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:48:36.843]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:48:37.308]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:48:37.309]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[20:48:50.656]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:48:50.659]|[3284]|[Info]|jsNotify code=7
+[20:48:50.659]|[3284]|[Info]|[RenterCharge] RemainTime=6657
+[20:48:50.659]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:48:50.662]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6717
+[20:48:50.663]|[3284]|[Info]|jsNotify code=4
+[20:48:50.664]|[074c]|[Info]|webNotify code=7
+[20:48:50.664]|[074c]|[Info]|webNotify code=4
+[20:48:51.897]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:48:52.542]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:48:52.543]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 813 ms,OwnThreadId=0x24cc.
+[20:48:56.152]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5781 ms,OwnThreadId=0x0614.
+[20:49:06.917]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:49:07.850]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:49:07.850]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1094 ms,OwnThreadId=0x24cc.
+[20:49:21.922]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:49:22.337]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:49:22.337]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[20:49:36.961]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:49:37.505]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:49:37.505]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 688 ms,OwnThreadId=0x24cc.
+[20:49:50.678]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:49:50.681]|[3284]|[Info]|jsNotify code=7
+[20:49:50.681]|[3284]|[Info]|[RenterCharge] RemainTime=6596
+[20:49:50.681]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:49:50.683]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6656
+[20:49:50.683]|[3284]|[Info]|jsNotify code=4
+[20:49:50.692]|[074c]|[Info]|webNotify code=7
+[20:49:50.692]|[074c]|[Info]|webNotify code=4
+[20:49:51.959]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:49:52.329]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:49:52.329]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 516 ms,OwnThreadId=0x24cc.
+[20:49:56.089]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5719 ms,OwnThreadId=0x0614.
+[20:50:06.986]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:50:07.497]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:50:07.497]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[20:50:22.005]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:50:22.605]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:50:22.605]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 765 ms,OwnThreadId=0x24cc.
+[20:50:37.012]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:50:37.547]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:50:37.548]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:50:50.698]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:50:50.701]|[3284]|[Info]|jsNotify code=7
+[20:50:50.701]|[3284]|[Info]|[RenterCharge] RemainTime=6536
+[20:50:50.701]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:50:50.703]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6596
+[20:50:50.704]|[3284]|[Info]|jsNotify code=4
+[20:50:50.710]|[074c]|[Info]|webNotify code=7
+[20:50:50.710]|[074c]|[Info]|webNotify code=4
+[20:50:52.031]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:50:52.396]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:50:52.396]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 515 ms,OwnThreadId=0x24cc.
+[20:50:56.076]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5672 ms,OwnThreadId=0x0614.
+[20:51:07.045]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:51:07.627]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:51:07.627]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[20:51:22.067]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:51:22.608]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:51:22.608]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[20:51:37.065]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:51:37.431]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:51:50.713]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:51:50.716]|[3284]|[Info]|jsNotify code=7
+[20:51:50.716]|[3284]|[Info]|[RenterCharge] RemainTime=6476
+[20:51:50.717]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:51:50.719]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6536
+[20:51:50.719]|[074c]|[Info]|webNotify code=7
+[20:51:50.720]|[3284]|[Info]|jsNotify code=4
+[20:51:50.730]|[074c]|[Info]|webNotify code=4
+[20:51:52.096]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:51:52.366]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:51:56.123]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5703 ms,OwnThreadId=0x0614.
+[20:52:07.118]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:52:07.482]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:52:22.125]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:52:22.706]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:52:22.706]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[20:52:37.142]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:52:37.504]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:52:50.717]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:52:50.719]|[3284]|[Info]|jsNotify code=7
+[20:52:50.719]|[3284]|[Info]|[RenterCharge] RemainTime=6416
+[20:52:50.719]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:52:50.722]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6476
+[20:52:50.723]|[3284]|[Info]|jsNotify code=4
+[20:52:50.725]|[074c]|[Info]|webNotify code=7
+[20:52:50.725]|[074c]|[Info]|webNotify code=4
+[20:52:52.179]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:52:52.634]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:52:52.634]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 609 ms,OwnThreadId=0x24cc.
+[20:52:56.258]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5843 ms,OwnThreadId=0x0614.
+[20:53:07.180]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:53:07.640]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:53:07.640]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[20:53:22.217]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:53:22.869]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:53:22.869]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 813 ms,OwnThreadId=0x24cc.
+[20:53:37.223]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:53:37.780]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:53:37.780]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 687 ms,OwnThreadId=0x24cc.
+[20:53:50.752]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:53:50.754]|[3284]|[Info]|jsNotify code=7
+[20:53:50.755]|[3284]|[Info]|[RenterCharge] RemainTime=6356
+[20:53:50.755]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:53:50.756]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6416
+[20:53:50.758]|[3284]|[Info]|jsNotify code=4
+[20:53:50.759]|[074c]|[Info]|webNotify code=7
+[20:53:50.759]|[074c]|[Info]|webNotify code=4
+[20:53:52.255]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:53:52.834]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:53:52.834]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 735 ms,OwnThreadId=0x24cc.
+[20:53:56.165]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5735 ms,OwnThreadId=0x0614.
+[20:54:07.285]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:54:07.827]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:54:07.827]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 688 ms,OwnThreadId=0x24cc.
+[20:54:22.289]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:54:22.705]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:54:22.705]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[20:54:37.310]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:54:37.826]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:54:37.826]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[20:54:50.764]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:54:50.768]|[3284]|[Info]|jsNotify code=7
+[20:54:50.768]|[3284]|[Info]|[RenterCharge] RemainTime=6296
+[20:54:50.768]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:54:50.770]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6356
+[20:54:50.772]|[3284]|[Info]|jsNotify code=4
+[20:54:50.776]|[074c]|[Info]|webNotify code=7
+[20:54:50.776]|[074c]|[Info]|webNotify code=4
+[20:54:52.362]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:54:52.948]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:54:52.949]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[20:54:56.269]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5812 ms,OwnThreadId=0x0614.
+[20:55:07.337]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:55:07.854]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:55:07.854]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 640 ms,OwnThreadId=0x24cc.
+[20:55:22.350]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:55:22.807]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:55:22.808]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[20:55:37.339]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:55:37.841]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:55:37.841]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 610 ms,OwnThreadId=0x24cc.
+[20:55:50.769]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:55:50.771]|[3284]|[Info]|jsNotify code=7
+[20:55:50.771]|[3284]|[Info]|[RenterCharge] RemainTime=6236
+[20:55:50.772]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:55:50.774]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6296
+[20:55:50.775]|[3284]|[Info]|jsNotify code=4
+[20:55:50.778]|[074c]|[Info]|webNotify code=7
+[20:55:50.778]|[074c]|[Info]|webNotify code=4
+[20:55:52.377]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:55:52.811]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:55:52.811]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[20:55:55.368]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4891 ms,OwnThreadId=0x0614.
+[20:56:07.400]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:56:07.877]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:56:07.877]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:56:22.433]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:56:22.892]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:56:22.892]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[20:56:37.448]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:56:37.911]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:56:37.911]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[20:56:50.798]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:56:50.800]|[3284]|[Info]|jsNotify code=7
+[20:56:50.800]|[3284]|[Info]|[RenterCharge] RemainTime=6176
+[20:56:50.800]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:56:50.802]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6236
+[20:56:50.803]|[3284]|[Info]|jsNotify code=4
+[20:56:50.809]|[074c]|[Info]|webNotify code=7
+[20:56:50.809]|[074c]|[Info]|webNotify code=4
+[20:56:52.476]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:56:52.782]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:56:56.244]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5750 ms,OwnThreadId=0x0614.
+[20:57:07.505]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:57:08.201]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:57:08.201]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 844 ms,OwnThreadId=0x24cc.
+[20:57:22.529]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:57:22.987]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:57:22.987]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 609 ms,OwnThreadId=0x24cc.
+[20:57:37.508]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:57:37.842]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:57:50.837]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:57:50.840]|[3284]|[Info]|jsNotify code=7
+[20:57:50.840]|[3284]|[Info]|[RenterCharge] RemainTime=6116
+[20:57:50.840]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:57:50.842]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6176
+[20:57:50.843]|[3284]|[Info]|jsNotify code=4
+[20:57:50.851]|[074c]|[Info]|webNotify code=7
+[20:57:50.851]|[074c]|[Info]|webNotify code=4
+[20:57:52.578]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:57:53.040]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:57:53.040]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[20:57:56.614]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 6078 ms,OwnThreadId=0x0614.
+[20:58:07.530]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:58:07.684]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:58:22.569]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:58:22.936]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:58:37.598]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:58:38.061]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:58:38.061]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[20:58:50.864]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:58:50.867]|[3284]|[Info]|jsNotify code=7
+[20:58:50.868]|[3284]|[Info]|[RenterCharge] RemainTime=6056
+[20:58:50.869]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:58:50.869]|[074c]|[Info]|webNotify code=7
+[20:58:50.870]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6116
+[20:58:50.872]|[3284]|[Info]|jsNotify code=4
+[20:58:50.879]|[074c]|[Info]|webNotify code=4
+[20:58:52.636]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:58:53.056]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:58:53.056]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:58:56.408]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5844 ms,OwnThreadId=0x0614.
+[20:59:07.637]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:59:08.064]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:59:08.064]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 562 ms,OwnThreadId=0x24cc.
+[20:59:22.646]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:59:23.010]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:59:37.674]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:59:38.133]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:59:38.134]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[20:59:50.876]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[20:59:50.879]|[3284]|[Info]|jsNotify code=7
+[20:59:50.879]|[3284]|[Info]|[RenterCharge] RemainTime=5996
+[20:59:50.879]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[20:59:50.880]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=6056
+[20:59:50.882]|[3284]|[Info]|jsNotify code=4
+[20:59:50.885]|[074c]|[Info]|webNotify code=7
+[20:59:50.885]|[074c]|[Info]|webNotify code=4
+[20:59:52.707]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[20:59:53.142]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[20:59:53.142]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[20:59:56.426]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5828 ms,OwnThreadId=0x0614.
+[21:00:07.741]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:00:08.162]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:00:08.162]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:00:22.776]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:00:23.471]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:00:23.471]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 860 ms,OwnThreadId=0x24cc.
+[21:00:37.770]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:00:38.198]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:00:38.198]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 563 ms,OwnThreadId=0x24cc.
+[21:00:50.920]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:00:50.923]|[3284]|[Info]|jsNotify code=7
+[21:00:50.923]|[3284]|[Info]|[RenterCharge] RemainTime=5936
+[21:00:50.923]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:00:50.926]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5996
+[21:00:50.929]|[3284]|[Info]|jsNotify code=4
+[21:00:50.933]|[074c]|[Info]|webNotify code=7
+[21:00:50.933]|[074c]|[Info]|webNotify code=4
+[21:00:52.799]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:00:53.256]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:00:53.256]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 609 ms,OwnThreadId=0x24cc.
+[21:00:56.475]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5875 ms,OwnThreadId=0x0614.
+[21:01:07.793]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:01:08.317]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:01:08.318]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[21:01:22.802]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:01:23.449]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:01:23.449]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 766 ms,OwnThreadId=0x24cc.
+[21:01:37.877]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:01:38.363]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:01:38.363]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[21:01:50.916]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:01:50.919]|[3284]|[Info]|jsNotify code=7
+[21:01:50.919]|[3284]|[Info]|[RenterCharge] RemainTime=5876
+[21:01:50.919]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:01:50.920]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5936
+[21:01:50.922]|[3284]|[Info]|jsNotify code=4
+[21:01:50.927]|[074c]|[Info]|webNotify code=7
+[21:01:50.927]|[074c]|[Info]|webNotify code=4
+[21:01:52.889]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:01:53.358]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:01:53.358]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[21:01:56.902]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 6281 ms,OwnThreadId=0x0614.
+[21:02:07.858]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:02:08.318]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:02:08.318]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[21:02:22.877]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:02:23.245]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:02:37.875]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:02:38.289]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:02:38.289]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:02:51.009]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:02:51.012]|[3284]|[Info]|jsNotify code=7
+[21:02:51.012]|[3284]|[Info]|[RenterCharge] RemainTime=5816
+[21:02:51.012]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:02:51.012]|[074c]|[Info]|webNotify code=7
+[21:02:51.013]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5876
+[21:02:51.014]|[3284]|[Info]|jsNotify code=4
+[21:02:51.024]|[074c]|[Info]|webNotify code=4
+[21:02:52.928]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:02:53.380]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:02:53.380]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:02:56.403]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5766 ms,OwnThreadId=0x0614.
+[21:03:07.985]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:03:08.692]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:03:08.692]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 875 ms,OwnThreadId=0x24cc.
+[21:03:22.983]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:03:23.453]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:03:23.453]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[21:03:37.973]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:03:38.252]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:03:50.961]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:03:50.963]|[3284]|[Info]|jsNotify code=7
+[21:03:50.963]|[3284]|[Info]|[RenterCharge] RemainTime=5756
+[21:03:50.963]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:03:50.965]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5816
+[21:03:50.966]|[3284]|[Info]|jsNotify code=4
+[21:03:50.969]|[074c]|[Info]|webNotify code=7
+[21:03:50.969]|[074c]|[Info]|webNotify code=4
+[21:03:53.034]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:03:53.406]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:03:53.406]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[21:03:56.480]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5828 ms,OwnThreadId=0x0614.
+[21:04:08.026]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:04:08.396]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:04:23.045]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:04:23.505]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:04:23.505]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:04:38.095]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:04:38.694]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:04:38.694]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 766 ms,OwnThreadId=0x24cc.
+[21:04:50.969]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:04:50.971]|[3284]|[Info]|jsNotify code=7
+[21:04:50.971]|[3284]|[Info]|[RenterCharge] RemainTime=5696
+[21:04:50.971]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:04:50.974]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5756
+[21:04:50.975]|[3284]|[Info]|jsNotify code=4
+[21:04:50.978]|[074c]|[Info]|webNotify code=7
+[21:04:50.978]|[074c]|[Info]|webNotify code=4
+[21:04:53.092]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:04:53.507]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:04:53.508]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:04:56.521]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5843 ms,OwnThreadId=0x0614.
+[21:05:08.100]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:05:08.523]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:05:08.523]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:05:23.097]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:05:23.559]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:05:23.559]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[21:05:38.131]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:05:38.503]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:05:38.503]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 516 ms,OwnThreadId=0x24cc.
+[21:05:50.997]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:05:51.003]|[3284]|[Info]|jsNotify code=7
+[21:05:51.003]|[3284]|[Info]|[RenterCharge] RemainTime=5636
+[21:05:51.003]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:05:51.005]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5696
+[21:05:51.006]|[3284]|[Info]|jsNotify code=4
+[21:05:51.009]|[074c]|[Info]|webNotify code=7
+[21:05:51.009]|[074c]|[Info]|webNotify code=4
+[21:05:53.157]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:05:53.652]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:05:53.652]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 641 ms,OwnThreadId=0x24cc.
+[21:05:56.507]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5828 ms,OwnThreadId=0x0614.
+[21:06:08.160]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:06:08.793]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:06:08.793]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 782 ms,OwnThreadId=0x24cc.
+[21:06:23.174]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:06:23.590]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:06:23.591]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 563 ms,OwnThreadId=0x24cc.
+[21:06:38.187]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:06:38.660]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:06:38.661]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:06:51.007]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:06:51.010]|[3284]|[Info]|jsNotify code=7
+[21:06:51.010]|[3284]|[Info]|[RenterCharge] RemainTime=5576
+[21:06:51.010]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:06:51.011]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5636
+[21:06:51.013]|[3284]|[Info]|jsNotify code=4
+[21:06:51.021]|[074c]|[Info]|webNotify code=7
+[21:06:51.021]|[074c]|[Info]|webNotify code=4
+[21:06:53.221]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:06:54.401]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:06:54.401]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1344 ms,OwnThreadId=0x24cc.
+[21:06:56.568]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5859 ms,OwnThreadId=0x0614.
+[21:07:08.232]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:07:08.724]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:07:08.724]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[21:07:23.237]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:07:23.614]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:07:38.287]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:07:38.936]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:07:38.936]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 812 ms,OwnThreadId=0x24cc.
+[21:07:51.038]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:07:51.040]|[3284]|[Info]|jsNotify code=7
+[21:07:51.040]|[3284]|[Info]|[RenterCharge] RemainTime=5516
+[21:07:51.040]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:07:51.042]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5576
+[21:07:51.043]|[3284]|[Info]|jsNotify code=4
+[21:07:51.047]|[074c]|[Info]|webNotify code=7
+[21:07:51.047]|[074c]|[Info]|webNotify code=4
+[21:07:53.289]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:07:53.943]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:07:53.943]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:07:55.711]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4985 ms,OwnThreadId=0x0614.
+[21:08:08.290]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:08:08.738]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:08:08.738]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:08:23.296]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:08:23.924]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:08:23.924]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 735 ms,OwnThreadId=0x24cc.
+[21:08:38.301]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:08:38.729]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:08:38.729]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:08:51.046]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:08:51.048]|[3284]|[Info]|jsNotify code=7
+[21:08:51.049]|[3284]|[Info]|[RenterCharge] RemainTime=5456
+[21:08:51.049]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:08:51.051]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5516
+[21:08:51.052]|[3284]|[Info]|jsNotify code=4
+[21:08:51.053]|[074c]|[Info]|webNotify code=7
+[21:08:51.053]|[074c]|[Info]|webNotify code=4
+[21:08:53.336]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:08:53.785]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:08:53.786]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:08:55.700]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4969 ms,OwnThreadId=0x0614.
+[21:09:08.382]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:09:08.833]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:09:08.833]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:09:23.361]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:09:23.825]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:09:23.825]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:09:38.376]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:09:38.837]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:09:38.837]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:09:51.057]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:09:51.059]|[3284]|[Info]|jsNotify code=7
+[21:09:51.059]|[3284]|[Info]|[RenterCharge] RemainTime=5396
+[21:09:51.060]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:09:51.061]|[074c]|[Info]|webNotify code=7
+[21:09:51.062]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5456
+[21:09:51.064]|[3284]|[Info]|jsNotify code=4
+[21:09:51.074]|[074c]|[Info]|webNotify code=4
+[21:09:53.426]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:09:53.840]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:09:53.841]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 579 ms,OwnThreadId=0x24cc.
+[21:09:56.548]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5797 ms,OwnThreadId=0x0614.
+[21:10:08.420]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:10:08.833]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:10:08.833]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:10:23.433]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:10:24.041]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:10:24.042]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[21:10:38.466]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:10:38.897]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:10:38.897]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:10:51.070]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:10:51.073]|[3284]|[Info]|jsNotify code=7
+[21:10:51.073]|[3284]|[Info]|[RenterCharge] RemainTime=5336
+[21:10:51.074]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:10:51.077]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5396
+[21:10:51.079]|[3284]|[Info]|jsNotify code=4
+[21:10:51.081]|[074c]|[Info]|webNotify code=7
+[21:10:51.081]|[074c]|[Info]|webNotify code=4
+[21:10:53.489]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:10:54.010]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:10:54.010]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 671 ms,OwnThreadId=0x24cc.
+[21:10:56.628]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5844 ms,OwnThreadId=0x0614.
+[21:11:08.508]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:11:08.880]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:11:08.880]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 516 ms,OwnThreadId=0x24cc.
+[21:11:23.510]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:11:23.969]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:11:23.969]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 579 ms,OwnThreadId=0x24cc.
+[21:11:38.537]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:11:39.101]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:11:39.101]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[21:11:51.077]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:11:51.080]|[3284]|[Info]|jsNotify code=7
+[21:11:51.080]|[3284]|[Info]|[RenterCharge] RemainTime=5276
+[21:11:51.080]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:11:51.082]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5336
+[21:11:51.084]|[3284]|[Info]|jsNotify code=4
+[21:11:51.087]|[074c]|[Info]|webNotify code=7
+[21:11:51.087]|[074c]|[Info]|webNotify code=4
+[21:11:53.539]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:11:53.865]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:11:56.550]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5750 ms,OwnThreadId=0x0614.
+[21:12:08.548]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:12:08.827]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:12:23.584]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:12:23.909]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:12:38.611]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:12:38.891]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:12:51.131]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:12:51.135]|[3284]|[Info]|jsNotify code=7
+[21:12:51.135]|[3284]|[Info]|[RenterCharge] RemainTime=5216
+[21:12:51.136]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:12:51.138]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5276
+[21:12:51.139]|[3284]|[Info]|jsNotify code=4
+[21:12:51.142]|[074c]|[Info]|webNotify code=7
+[21:12:51.142]|[074c]|[Info]|webNotify code=4
+[21:12:53.641]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:12:54.051]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:12:54.051]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:12:56.728]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5906 ms,OwnThreadId=0x0614.
+[21:13:08.633]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:13:09.040]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:13:09.040]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:13:23.657]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:13:23.940]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:13:38.683]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:13:39.045]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:13:51.160]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:13:51.163]|[3284]|[Info]|jsNotify code=7
+[21:13:51.163]|[3284]|[Info]|[RenterCharge] RemainTime=5156
+[21:13:51.163]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:13:51.165]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5216
+[21:13:51.166]|[3284]|[Info]|jsNotify code=4
+[21:13:51.167]|[074c]|[Info]|webNotify code=7
+[21:13:51.167]|[074c]|[Info]|webNotify code=4
+[21:13:53.712]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:13:53.994]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:13:56.720]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5875 ms,OwnThreadId=0x0614.
+[21:14:08.730]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:14:09.188]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:14:09.188]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 593 ms,OwnThreadId=0x24cc.
+[21:14:23.715]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:14:24.040]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:14:38.725]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:14:39.008]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:14:51.167]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:14:51.169]|[3284]|[Info]|jsNotify code=7
+[21:14:51.169]|[3284]|[Info]|[RenterCharge] RemainTime=5096
+[21:14:51.169]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:14:51.171]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5156
+[21:14:51.171]|[074c]|[Info]|webNotify code=7
+[21:14:51.173]|[3284]|[Info]|jsNotify code=4
+[21:14:51.184]|[074c]|[Info]|webNotify code=4
+[21:14:53.764]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:14:54.136]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:14:54.136]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 515 ms,OwnThreadId=0x24cc.
+[21:14:56.762]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5890 ms,OwnThreadId=0x0614.
+[21:15:08.794]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:15:09.438]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:15:09.438]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:15:23.811]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:15:24.233]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:15:24.233]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:15:38.808]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:15:39.086]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:15:51.180]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:15:51.185]|[3284]|[Info]|jsNotify code=7
+[21:15:51.185]|[3284]|[Info]|[RenterCharge] RemainTime=5036
+[21:15:51.186]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:15:51.188]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5096
+[21:15:51.188]|[074c]|[Info]|webNotify code=7
+[21:15:51.189]|[3284]|[Info]|jsNotify code=4
+[21:15:51.199]|[074c]|[Info]|webNotify code=4
+[21:15:53.876]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:15:54.342]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:15:54.342]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[21:15:56.801]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5907 ms,OwnThreadId=0x0614.
+[21:16:08.875]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:16:09.197]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:16:23.895]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:16:24.935]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:16:24.935]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1172 ms,OwnThreadId=0x24cc.
+[21:16:38.919]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:16:39.714]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:16:39.714]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 938 ms,OwnThreadId=0x24cc.
+[21:16:51.229]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:16:51.232]|[3284]|[Info]|jsNotify code=7
+[21:16:51.233]|[3284]|[Info]|[RenterCharge] RemainTime=4976
+[21:16:51.233]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:16:51.235]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=5036
+[21:16:51.237]|[3284]|[Info]|jsNotify code=4
+[21:16:51.237]|[074c]|[Info]|webNotify code=7
+[21:16:51.238]|[074c]|[Info]|webNotify code=4
+[21:16:53.952]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:16:57.018]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 6109 ms,OwnThreadId=0x0614.
+[21:16:57.420]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:16:57.421]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 3610 ms,OwnThreadId=0x24cc.
+[21:17:08.943]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:17:17.250]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:17:17.250]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 8438 ms,OwnThreadId=0x24cc.
+[21:17:23.957]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:17:25.574]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:17:25.574]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1750 ms,OwnThreadId=0x24cc.
+[21:17:39.003]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:17:40.012]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:17:40.012]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1156 ms,OwnThreadId=0x24cc.
+[21:17:51.229]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:17:51.231]|[3284]|[Info]|jsNotify code=7
+[21:17:51.231]|[3284]|[Info]|[RenterCharge] RemainTime=4916
+[21:17:51.231]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:17:51.232]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4976
+[21:17:51.233]|[074c]|[Info]|webNotify code=7
+[21:17:51.234]|[3284]|[Info]|jsNotify code=4
+[21:17:51.245]|[074c]|[Info]|webNotify code=4
+[21:17:54.029]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:17:55.031]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:17:55.031]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1141 ms,OwnThreadId=0x24cc.
+[21:17:56.817]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5875 ms,OwnThreadId=0x0614.
+[21:18:09.034]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:18:09.870]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:18:09.870]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 985 ms,OwnThreadId=0x24cc.
+[21:18:24.052]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:18:25.020]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:18:25.020]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1109 ms,OwnThreadId=0x24cc.
+[21:18:39.076]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:18:39.988]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:18:39.988]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1047 ms,OwnThreadId=0x24cc.
+[21:18:51.223]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:18:51.226]|[3284]|[Info]|jsNotify code=7
+[21:18:51.226]|[3284]|[Info]|[RenterCharge] RemainTime=4856
+[21:18:51.226]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:18:51.228]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4916
+[21:18:51.228]|[074c]|[Info]|webNotify code=7
+[21:18:51.230]|[3284]|[Info]|jsNotify code=4
+[21:18:51.240]|[074c]|[Info]|webNotify code=4
+[21:18:54.088]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:18:54.923]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:18:54.923]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 985 ms,OwnThreadId=0x24cc.
+[21:18:57.141]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 6187 ms,OwnThreadId=0x0614.
+[21:19:09.090]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:19:09.752]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:19:09.752]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:19:24.127]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:19:24.994]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:19:24.995]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1016 ms,OwnThreadId=0x24cc.
+[21:19:39.145]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:19:40.105]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:19:40.105]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1109 ms,OwnThreadId=0x24cc.
+[21:19:51.275]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:19:51.278]|[3284]|[Info]|jsNotify code=7
+[21:19:51.278]|[3284]|[Info]|[RenterCharge] RemainTime=4796
+[21:19:51.279]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:19:51.279]|[074c]|[Info]|webNotify code=7
+[21:19:51.280]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4856
+[21:19:51.282]|[3284]|[Info]|jsNotify code=4
+[21:19:51.290]|[074c]|[Info]|webNotify code=4
+[21:19:54.198]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:19:55.497]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:19:55.498]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1500 ms,OwnThreadId=0x24cc.
+[21:19:56.905]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5937 ms,OwnThreadId=0x0614.
+[21:20:09.153]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:20:10.008]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:20:10.008]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1000 ms,OwnThreadId=0x24cc.
+[21:20:24.181]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:20:24.997]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:20:24.997]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 969 ms,OwnThreadId=0x24cc.
+[21:20:39.200]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:20:40.089]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:20:40.089]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1047 ms,OwnThreadId=0x24cc.
+[21:20:51.281]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:20:51.284]|[3284]|[Info]|jsNotify code=7
+[21:20:51.284]|[3284]|[Info]|[RenterCharge] RemainTime=4736
+[21:20:51.285]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:20:51.286]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4796
+[21:20:51.287]|[3284]|[Info]|jsNotify code=4
+[21:20:51.291]|[074c]|[Info]|webNotify code=7
+[21:20:51.292]|[074c]|[Info]|webNotify code=4
+[21:20:54.217]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:20:55.099]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:20:55.099]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1047 ms,OwnThreadId=0x24cc.
+[21:20:56.871]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5891 ms,OwnThreadId=0x0614.
+[21:21:09.210]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:21:11.138]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:21:11.138]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 2062 ms,OwnThreadId=0x24cc.
+[21:21:24.235]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:21:25.007]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:21:25.007]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 921 ms,OwnThreadId=0x24cc.
+[21:21:39.208]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:21:39.393]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:21:51.313]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:21:51.315]|[3284]|[Info]|jsNotify code=7
+[21:21:51.315]|[3284]|[Info]|[RenterCharge] RemainTime=4676
+[21:21:51.316]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:21:51.317]|[074c]|[Info]|webNotify code=7
+[21:21:51.318]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4736
+[21:21:51.319]|[3284]|[Info]|jsNotify code=4
+[21:21:51.328]|[074c]|[Info]|webNotify code=4
+[21:21:54.272]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:21:55.069]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:21:55.070]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 953 ms,OwnThreadId=0x24cc.
+[21:21:57.073]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 6078 ms,OwnThreadId=0x0614.
+[21:22:09.281]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:22:10.125]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:22:10.125]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 985 ms,OwnThreadId=0x24cc.
+[21:22:24.365]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:22:25.248]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:22:25.248]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1094 ms,OwnThreadId=0x24cc.
+[21:22:39.285]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:22:40.111]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:22:40.111]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 937 ms,OwnThreadId=0x24cc.
+[21:22:51.304]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:22:51.306]|[3284]|[Info]|jsNotify code=7
+[21:22:51.306]|[3284]|[Info]|[RenterCharge] RemainTime=4616
+[21:22:51.306]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:22:51.308]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4676
+[21:22:51.309]|[074c]|[Info]|webNotify code=7
+[21:22:51.309]|[3284]|[Info]|jsNotify code=4
+[21:22:51.320]|[074c]|[Info]|webNotify code=4
+[21:22:54.307]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:22:55.419]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:22:55.420]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1235 ms,OwnThreadId=0x24cc.
+[21:22:55.893]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4875 ms,OwnThreadId=0x0614.
+[21:23:09.314]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:23:10.252]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:23:10.253]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1047 ms,OwnThreadId=0x24cc.
+[21:23:24.340]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:23:25.399]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:23:25.399]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1172 ms,OwnThreadId=0x24cc.
+[21:23:39.385]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:23:40.178]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:23:40.178]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 937 ms,OwnThreadId=0x24cc.
+[21:23:51.327]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:23:51.330]|[3284]|[Info]|jsNotify code=7
+[21:23:51.330]|[3284]|[Info]|[RenterCharge] RemainTime=4556
+[21:23:51.330]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:23:51.332]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4616
+[21:23:51.332]|[3284]|[Info]|jsNotify code=4
+[21:23:51.338]|[074c]|[Info]|webNotify code=7
+[21:23:51.338]|[074c]|[Info]|webNotify code=4
+[21:23:54.394]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:23:55.172]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:23:55.172]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 922 ms,OwnThreadId=0x24cc.
+[21:23:55.995]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4969 ms,OwnThreadId=0x0614.
+[21:24:09.404]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:24:10.221]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:24:10.221]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 954 ms,OwnThreadId=0x24cc.
+[21:24:24.434]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:24:25.182]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:24:25.182]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 890 ms,OwnThreadId=0x24cc.
+[21:24:39.443]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:24:40.421]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:24:40.421]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1110 ms,OwnThreadId=0x24cc.
+[21:24:51.362]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:24:51.364]|[3284]|[Info]|jsNotify code=7
+[21:24:51.364]|[3284]|[Info]|[RenterCharge] RemainTime=4496
+[21:24:51.364]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:24:51.366]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4556
+[21:24:51.365]|[074c]|[Info]|webNotify code=7
+[21:24:51.367]|[3284]|[Info]|jsNotify code=4
+[21:24:51.378]|[074c]|[Info]|webNotify code=4
+[21:24:54.484]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:24:55.470]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:24:55.470]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1125 ms,OwnThreadId=0x24cc.
+[21:24:56.889]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5843 ms,OwnThreadId=0x0614.
+[21:25:09.481]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:25:10.354]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:25:10.354]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1015 ms,OwnThreadId=0x24cc.
+[21:25:24.497]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:25:25.417]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:25:25.417]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1063 ms,OwnThreadId=0x24cc.
+[21:25:39.516]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:25:40.581]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:25:40.582]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1203 ms,OwnThreadId=0x24cc.
+[21:25:51.371]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:25:51.374]|[3284]|[Info]|jsNotify code=7
+[21:25:51.374]|[3284]|[Info]|[RenterCharge] RemainTime=4436
+[21:25:51.374]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:25:51.376]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4496
+[21:25:51.375]|[074c]|[Info]|webNotify code=7
+[21:25:51.378]|[3284]|[Info]|jsNotify code=4
+[21:25:51.388]|[074c]|[Info]|webNotify code=4
+[21:25:54.538]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:25:55.322]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:25:55.322]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 938 ms,OwnThreadId=0x24cc.
+[21:25:56.928]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5859 ms,OwnThreadId=0x0614.
+[21:26:09.598]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:26:10.380]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:26:10.380]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 953 ms,OwnThreadId=0x24cc.
+[21:26:24.571]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:26:25.321]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:26:25.322]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:26:39.596]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:26:40.241]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:26:40.241]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:26:51.412]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:26:51.414]|[3284]|[Info]|jsNotify code=7
+[21:26:51.414]|[3284]|[Info]|[RenterCharge] RemainTime=4376
+[21:26:51.414]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:26:51.417]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4436
+[21:26:51.419]|[074c]|[Info]|webNotify code=7
+[21:26:51.420]|[3284]|[Info]|jsNotify code=4
+[21:26:51.431]|[074c]|[Info]|webNotify code=4
+[21:26:54.659]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:26:55.708]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:26:55.708]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1219 ms,OwnThreadId=0x24cc.
+[21:26:56.920]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5813 ms,OwnThreadId=0x0614.
+[21:27:09.667]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:27:10.502]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:27:10.502]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 985 ms,OwnThreadId=0x24cc.
+[21:27:24.667]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:27:25.326]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:27:25.326]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[21:27:39.696]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:27:40.486]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:27:40.486]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 937 ms,OwnThreadId=0x24cc.
+[21:27:51.407]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:27:51.410]|[3284]|[Info]|jsNotify code=7
+[21:27:51.410]|[3284]|[Info]|[RenterCharge] RemainTime=4316
+[21:27:51.410]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:27:51.412]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4376
+[21:27:51.413]|[3284]|[Info]|jsNotify code=4
+[21:27:51.419]|[074c]|[Info]|webNotify code=7
+[21:27:51.419]|[074c]|[Info]|webNotify code=4
+[21:27:54.713]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:27:55.425]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:27:55.425]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 860 ms,OwnThreadId=0x24cc.
+[21:27:56.925]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5782 ms,OwnThreadId=0x0614.
+[21:28:09.743]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:28:10.697]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:28:10.697]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1109 ms,OwnThreadId=0x24cc.
+[21:28:24.727]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:28:25.425]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:28:25.425]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 828 ms,OwnThreadId=0x24cc.
+[21:28:39.773]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:28:40.972]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:28:40.972]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1344 ms,OwnThreadId=0x24cc.
+[21:28:51.440]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:28:51.444]|[3284]|[Info]|jsNotify code=7
+[21:28:51.445]|[3284]|[Info]|[RenterCharge] RemainTime=4255
+[21:28:51.445]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:28:51.447]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4315
+[21:28:51.449]|[3284]|[Info]|jsNotify code=4
+[21:28:51.455]|[074c]|[Info]|webNotify code=7
+[21:28:51.455]|[074c]|[Info]|webNotify code=4
+[21:28:54.787]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:28:55.530]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:28:55.530]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:28:56.944]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5813 ms,OwnThreadId=0x0614.
+[21:29:09.794]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:29:10.365]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:29:10.365]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[21:29:24.823]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:29:25.593]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:29:25.593]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 922 ms,OwnThreadId=0x24cc.
+[21:29:39.830]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:29:40.571]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:29:40.571]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:29:51.452]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:29:51.454]|[3284]|[Info]|jsNotify code=7
+[21:29:51.454]|[3284]|[Info]|[RenterCharge] RemainTime=4195
+[21:29:51.455]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:29:51.457]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4255
+[21:29:51.458]|[3284]|[Info]|jsNotify code=4
+[21:29:51.461]|[074c]|[Info]|webNotify code=7
+[21:29:51.461]|[074c]|[Info]|webNotify code=4
+[21:29:54.867]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:29:55.400]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:29:55.400]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 687 ms,OwnThreadId=0x24cc.
+[21:29:57.091]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5938 ms,OwnThreadId=0x0614.
+[21:30:09.890]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:30:10.535]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:30:10.535]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:30:24.883]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:30:25.491]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:30:25.491]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[21:30:39.923]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:30:40.674]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:30:40.675]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:30:51.464]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:30:51.466]|[3284]|[Info]|jsNotify code=7
+[21:30:51.466]|[3284]|[Info]|[RenterCharge] RemainTime=4136
+[21:30:51.467]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:30:51.469]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4196
+[21:30:51.471]|[3284]|[Info]|jsNotify code=4
+[21:30:51.472]|[074c]|[Info]|webNotify code=7
+[21:30:51.472]|[074c]|[Info]|webNotify code=4
+[21:30:54.940]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:30:55.588]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:30:55.589]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[21:30:57.058]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5875 ms,OwnThreadId=0x0614.
+[21:31:09.952]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:31:10.706]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:31:10.707]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:31:24.959]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:31:25.613]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:31:25.614]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:31:39.993]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:31:40.682]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:31:40.682]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 828 ms,OwnThreadId=0x24cc.
+[21:31:51.494]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:31:51.497]|[3284]|[Info]|jsNotify code=7
+[21:31:51.497]|[3284]|[Info]|[RenterCharge] RemainTime=4075
+[21:31:51.497]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:31:51.499]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4135
+[21:31:51.500]|[3284]|[Info]|jsNotify code=4
+[21:31:51.507]|[074c]|[Info]|webNotify code=7
+[21:31:51.507]|[074c]|[Info]|webNotify code=4
+[21:31:55.031]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:31:55.600]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:31:55.600]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[21:31:57.032]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5828 ms,OwnThreadId=0x0614.
+[21:32:10.060]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:32:10.910]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:32:10.911]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1000 ms,OwnThreadId=0x24cc.
+[21:32:25.070]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:32:25.909]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:32:25.909]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 969 ms,OwnThreadId=0x24cc.
+[21:32:40.109]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:32:40.948]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:32:40.948]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 969 ms,OwnThreadId=0x24cc.
+[21:32:51.504]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:32:51.506]|[3284]|[Info]|jsNotify code=7
+[21:32:51.506]|[3284]|[Info]|[RenterCharge] RemainTime=4016
+[21:32:51.506]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:32:51.508]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4076
+[21:32:51.509]|[3284]|[Info]|jsNotify code=4
+[21:32:51.510]|[074c]|[Info]|webNotify code=7
+[21:32:51.510]|[074c]|[Info]|webNotify code=4
+[21:32:55.115]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:32:55.736]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:32:55.736]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[21:32:56.227]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5015 ms,OwnThreadId=0x0614.
+[21:33:10.142]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:33:10.738]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:33:10.738]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[21:33:25.138]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:33:25.703]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:33:25.703]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[21:33:40.155]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:33:40.299]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:33:51.712]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:33:51.715]|[3284]|[Info]|jsNotify code=7
+[21:33:51.715]|[3284]|[Info]|[RenterCharge] RemainTime=3956
+[21:33:51.715]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:33:51.717]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=4016
+[21:33:51.715]|[074c]|[Info]|webNotify code=7
+[21:33:51.720]|[3284]|[Info]|jsNotify code=4
+[21:33:51.731]|[074c]|[Info]|webNotify code=4
+[21:33:55.230]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:33:55.855]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:33:55.855]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:33:57.077]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5844 ms,OwnThreadId=0x0614.
+[21:34:10.202]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:34:10.788]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:34:10.788]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[21:34:25.248]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:34:25.821]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:34:25.821]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[21:34:40.253]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:34:40.922]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:34:40.923]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[21:34:51.540]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:34:51.544]|[3284]|[Info]|jsNotify code=7
+[21:34:51.544]|[3284]|[Info]|[RenterCharge] RemainTime=3896
+[21:34:51.544]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:34:51.546]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3956
+[21:34:51.547]|[3284]|[Info]|jsNotify code=4
+[21:34:51.554]|[074c]|[Info]|webNotify code=7
+[21:34:51.554]|[074c]|[Info]|webNotify code=4
+[21:34:55.300]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:34:55.920]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:34:55.920]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 782 ms,OwnThreadId=0x24cc.
+[21:34:56.959]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5719 ms,OwnThreadId=0x0614.
+[21:35:10.298]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:35:10.921]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:35:10.921]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 766 ms,OwnThreadId=0x24cc.
+[21:35:25.321]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:35:25.859]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:35:25.859]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[21:35:40.366]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:35:41.178]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:35:41.179]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 968 ms,OwnThreadId=0x24cc.
+[21:35:51.574]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:35:51.577]|[3284]|[Info]|jsNotify code=7
+[21:35:51.577]|[3284]|[Info]|[RenterCharge] RemainTime=3836
+[21:35:51.577]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:35:51.580]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3896
+[21:35:51.582]|[3284]|[Info]|jsNotify code=4
+[21:35:51.584]|[074c]|[Info]|webNotify code=7
+[21:35:51.584]|[074c]|[Info]|webNotify code=4
+[21:35:55.384]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:35:55.844]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:35:55.844]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 610 ms,OwnThreadId=0x24cc.
+[21:35:56.993]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5735 ms,OwnThreadId=0x0614.
+[21:36:10.371]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:36:10.860]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:36:10.860]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 609 ms,OwnThreadId=0x24cc.
+[21:36:25.399]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:36:25.933]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:36:25.933]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[21:36:40.429]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:36:41.116]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:36:41.116]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 828 ms,OwnThreadId=0x24cc.
+[21:36:51.626]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:36:51.629]|[3284]|[Info]|jsNotify code=7
+[21:36:51.629]|[3284]|[Info]|[RenterCharge] RemainTime=3776
+[21:36:51.629]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:36:51.631]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3836
+[21:36:51.632]|[3284]|[Info]|jsNotify code=4
+[21:36:51.638]|[074c]|[Info]|webNotify code=7
+[21:36:51.638]|[074c]|[Info]|webNotify code=4
+[21:36:55.469]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:36:56.037]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:36:56.038]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 735 ms,OwnThreadId=0x24cc.
+[21:36:57.122]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5828 ms,OwnThreadId=0x0614.
+[21:37:10.474]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:37:11.009]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:37:11.009]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 671 ms,OwnThreadId=0x24cc.
+[21:37:25.479]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:37:25.972]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:37:25.972]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 610 ms,OwnThreadId=0x24cc.
+[21:37:40.519]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:37:41.329]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:37:41.330]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 969 ms,OwnThreadId=0x24cc.
+[21:37:51.617]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:37:51.619]|[3284]|[Info]|jsNotify code=7
+[21:37:51.619]|[3284]|[Info]|[RenterCharge] RemainTime=3715
+[21:37:51.620]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:37:51.623]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3775
+[21:37:51.625]|[3284]|[Info]|jsNotify code=4
+[21:37:51.627]|[074c]|[Info]|webNotify code=7
+[21:37:51.627]|[074c]|[Info]|webNotify code=4
+[21:37:55.548]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:37:56.089]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:37:56.089]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 704 ms,OwnThreadId=0x24cc.
+[21:37:57.035]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5719 ms,OwnThreadId=0x0614.
+[21:38:10.557]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:38:11.344]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:38:11.344]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 938 ms,OwnThreadId=0x24cc.
+[21:38:25.555]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:38:26.048]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:38:26.048]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 625 ms,OwnThreadId=0x24cc.
+[21:38:40.563]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:38:41.013]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:38:41.013]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:38:51.642]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:38:51.646]|[3284]|[Info]|jsNotify code=7
+[21:38:51.646]|[3284]|[Info]|[RenterCharge] RemainTime=3655
+[21:38:51.646]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:38:51.648]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3715
+[21:38:51.650]|[3284]|[Info]|jsNotify code=4
+[21:38:51.652]|[074c]|[Info]|webNotify code=7
+[21:38:51.652]|[074c]|[Info]|webNotify code=4
+[21:38:55.617]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:38:56.332]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:38:56.332]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 859 ms,OwnThreadId=0x24cc.
+[21:38:57.103]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5765 ms,OwnThreadId=0x0614.
+[21:39:10.570]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:39:10.764]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:39:25.592]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:39:25.731]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:39:40.653]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:39:41.061]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:39:41.061]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[21:39:51.669]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:39:51.671]|[3284]|[Info]|jsNotify code=7
+[21:39:51.671]|[3284]|[Info]|[RenterCharge] RemainTime=3595
+[21:39:51.671]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:39:51.673]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3655
+[21:39:51.674]|[3284]|[Info]|jsNotify code=4
+[21:39:51.679]|[074c]|[Info]|webNotify code=7
+[21:39:51.679]|[074c]|[Info]|webNotify code=4
+[21:39:55.666]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:39:56.123]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:39:56.123]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:39:57.139]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5796 ms,OwnThreadId=0x0614.
+[21:40:10.679]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:40:11.082]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:40:11.082]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[21:40:25.696]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:40:26.106]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:40:26.106]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:40:40.723]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:40:41.093]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:40:51.682]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:40:51.684]|[3284]|[Info]|jsNotify code=7
+[21:40:51.684]|[3284]|[Info]|[RenterCharge] RemainTime=3535
+[21:40:51.684]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:40:51.687]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3595
+[21:40:51.689]|[3284]|[Info]|jsNotify code=4
+[21:40:51.689]|[074c]|[Info]|webNotify code=7
+[21:40:51.689]|[074c]|[Info]|webNotify code=4
+[21:40:55.750]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:40:56.122]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:40:56.122]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 516 ms,OwnThreadId=0x24cc.
+[21:40:57.077]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5703 ms,OwnThreadId=0x0614.
+[21:41:10.752]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:41:11.164]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:41:11.164]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:41:25.784]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:41:26.233]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:41:26.233]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:41:40.796]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:41:41.419]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:41:41.419]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 766 ms,OwnThreadId=0x24cc.
+[21:41:51.711]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:41:51.713]|[3284]|[Info]|jsNotify code=7
+[21:41:51.713]|[3284]|[Info]|[RenterCharge] RemainTime=3476
+[21:41:51.713]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:41:51.714]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3536
+[21:41:51.716]|[3284]|[Info]|jsNotify code=4
+[21:41:51.722]|[074c]|[Info]|webNotify code=7
+[21:41:51.722]|[074c]|[Info]|webNotify code=4
+[21:41:55.816]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:41:56.230]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:41:56.230]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:41:57.363]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5969 ms,OwnThreadId=0x0614.
+[21:42:10.819]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:42:11.183]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:42:25.838]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:42:26.252]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:42:26.252]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 531 ms,OwnThreadId=0x24cc.
+[21:42:40.859]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:42:41.360]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:42:41.360]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 640 ms,OwnThreadId=0x24cc.
+[21:42:51.797]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:42:51.800]|[3284]|[Info]|jsNotify code=7
+[21:42:51.800]|[3284]|[Info]|[RenterCharge] RemainTime=3415
+[21:42:51.801]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:42:51.802]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3475
+[21:42:51.803]|[3284]|[Info]|jsNotify code=4
+[21:42:51.809]|[074c]|[Info]|webNotify code=7
+[21:42:51.809]|[074c]|[Info]|webNotify code=4
+[21:42:55.875]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:42:56.290]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:42:56.290]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 563 ms,OwnThreadId=0x24cc.
+[21:42:57.137]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5718 ms,OwnThreadId=0x0614.
+[21:43:10.878]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:43:11.294]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:43:11.295]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:43:25.912]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:43:26.366]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:43:26.366]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:43:40.930]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:43:41.286]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:43:51.732]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:43:51.736]|[3284]|[Info]|jsNotify code=7
+[21:43:51.736]|[3284]|[Info]|[RenterCharge] RemainTime=3356
+[21:43:51.736]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:43:51.739]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3416
+[21:43:51.740]|[3284]|[Info]|jsNotify code=4
+[21:43:51.747]|[074c]|[Info]|webNotify code=7
+[21:43:51.747]|[074c]|[Info]|webNotify code=4
+[21:43:55.992]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:43:56.511]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:43:56.511]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 687 ms,OwnThreadId=0x24cc.
+[21:43:57.108]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5687 ms,OwnThreadId=0x0614.
+[21:44:11.001]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:44:11.681]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:44:11.681]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 828 ms,OwnThreadId=0x24cc.
+[21:44:25.968]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:44:26.559]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:44:26.559]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[21:44:40.994]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:44:41.631]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:44:41.631]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 765 ms,OwnThreadId=0x24cc.
+[21:44:51.733]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:44:51.736]|[3284]|[Info]|jsNotify code=7
+[21:44:51.736]|[3284]|[Info]|[RenterCharge] RemainTime=3295
+[21:44:51.736]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:44:51.738]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3355
+[21:44:51.739]|[3284]|[Info]|jsNotify code=4
+[21:44:51.745]|[074c]|[Info]|webNotify code=7
+[21:44:51.745]|[074c]|[Info]|webNotify code=4
+[21:44:56.007]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:44:56.463]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:44:56.463]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 579 ms,OwnThreadId=0x24cc.
+[21:44:56.550]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5094 ms,OwnThreadId=0x0614.
+[21:45:11.036]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:45:11.674]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:45:11.674]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 766 ms,OwnThreadId=0x24cc.
+[21:45:26.029]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:45:26.452]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:45:26.452]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 516 ms,OwnThreadId=0x24cc.
+[21:45:41.058]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:45:41.658]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:45:41.659]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[21:45:51.769]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:45:51.771]|[3284]|[Info]|jsNotify code=7
+[21:45:51.772]|[3284]|[Info]|[RenterCharge] RemainTime=3236
+[21:45:51.772]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:45:51.774]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3296
+[21:45:51.775]|[3284]|[Info]|jsNotify code=4
+[21:45:51.776]|[074c]|[Info]|webNotify code=7
+[21:45:51.776]|[074c]|[Info]|webNotify code=4
+[21:45:56.072]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:45:56.392]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4921 ms,OwnThreadId=0x0614.
+[21:45:56.529]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:45:56.529]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:46:11.095]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:46:22.405]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:46:22.405]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 11422 ms,OwnThreadId=0x24cc.
+[21:46:26.145]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:46:57.233]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5734 ms,OwnThreadId=0x0614.
+[21:47:03.155]|[3284]|[Error]|[RenterCharge] PostHttp nRet=6
+[21:47:03.156]|[3284]|[Error]|[RenterCharge] ProcOrderStatus Resp=
+[21:47:03.156]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcOrderStatus] timeout, spend 11531 ms,OwnThreadId=0x350c.
+[21:47:03.156]|[350c]|[Info]|[GameRenterMgr] ProcCheckOrderReset Interval=5
+[21:47:08.624]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:47:08.626]|[3284]|[Info]|jsNotify code=7
+[21:47:08.627]|[3284]|[Info]|[RenterCharge] RemainTime=3159
+[21:47:08.627]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:47:08.629]|[074c]|[Info]|webNotify code=7
+[21:47:08.629]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3219
+[21:47:08.631]|[3284]|[Info]|jsNotify code=4
+[21:47:08.631]|[3284]|[Info]|[RenterCharge] Reset OrderStatusFailedCnt
+[21:47:08.631]|[350c]|[Info]|[GameRenterMgr] ProcCheckOrderReset Interval=60
+[21:47:08.641]|[074c]|[Info]|webNotify code=4
+[21:47:25.769]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:47:25.769]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 59750 ms,OwnThreadId=0x24cc.
+[21:47:25.949]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:47:31.060]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:47:31.060]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 5265 ms,OwnThreadId=0x24cc.
+[21:47:40.925]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:47:43.917]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:47:43.917]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 3125 ms,OwnThreadId=0x24cc.
+[21:47:55.983]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:47:57.336]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5829 ms,OwnThreadId=0x0614.
+[21:47:58.515]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:47:58.516]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 2687 ms,OwnThreadId=0x24cc.
+[21:48:08.871]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:48:08.874]|[3284]|[Info]|jsNotify code=7
+[21:48:08.874]|[3284]|[Info]|[RenterCharge] RemainTime=3099
+[21:48:08.874]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:48:08.875]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3159
+[21:48:08.875]|[074c]|[Info]|webNotify code=7
+[21:48:08.876]|[3284]|[Info]|jsNotify code=4
+[21:48:08.886]|[074c]|[Info]|webNotify code=4
+[21:48:10.976]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:48:15.454]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:48:15.454]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 4625 ms,OwnThreadId=0x24cc.
+[21:48:25.975]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:48:43.124]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:48:43.124]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 17281 ms,OwnThreadId=0x24cc.
+[21:48:43.291]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:48:44.647]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:48:44.647]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1516 ms,OwnThreadId=0x24cc.
+[21:48:57.314]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5781 ms,OwnThreadId=0x0614.
+[21:48:58.297]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:48:59.191]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:48:59.191]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1031 ms,OwnThreadId=0x24cc.
+[21:49:08.950]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:49:08.952]|[3284]|[Info]|jsNotify code=7
+[21:49:08.952]|[3284]|[Info]|[RenterCharge] RemainTime=3038
+[21:49:08.952]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:49:08.953]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3098
+[21:49:08.955]|[3284]|[Info]|jsNotify code=4
+[21:49:08.961]|[074c]|[Info]|webNotify code=7
+[21:49:08.961]|[074c]|[Info]|webNotify code=4
+[21:49:13.320]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:49:25.592]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:49:25.592]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 12422 ms,OwnThreadId=0x24cc.
+[21:49:28.319]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:49:30.107]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:49:30.107]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1906 ms,OwnThreadId=0x24cc.
+[21:49:43.339]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:49:45.366]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:49:45.366]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 2172 ms,OwnThreadId=0x24cc.
+[21:49:57.152]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5594 ms,OwnThreadId=0x0614.
+[21:49:58.376]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:49:59.998]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:49:59.998]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1766 ms,OwnThreadId=0x24cc.
+[21:50:09.585]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:50:09.587]|[3284]|[Info]|jsNotify code=7
+[21:50:09.588]|[3284]|[Info]|[RenterCharge] RemainTime=2978
+[21:50:09.588]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:50:09.589]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=3038
+[21:50:09.591]|[3284]|[Info]|jsNotify code=4
+[21:50:09.591]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcOrderStatus] timeout, spend 891 ms,OwnThreadId=0x350c.
+[21:50:09.598]|[074c]|[Info]|webNotify code=7
+[21:50:09.598]|[074c]|[Info]|webNotify code=4
+[21:50:13.365]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:50:19.996]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:50:19.996]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 6750 ms,OwnThreadId=0x24cc.
+[21:50:28.416]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:50:30.449]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:50:30.449]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 2172 ms,OwnThreadId=0x24cc.
+[21:50:43.421]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:50:44.680]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:50:44.680]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 1406 ms,OwnThreadId=0x24cc.
+[21:50:57.277]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5703 ms,OwnThreadId=0x0614.
+[21:50:58.447]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:51:11.616]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:51:11.618]|[3284]|[Info]|jsNotify code=7
+[21:51:11.618]|[3284]|[Info]|[RenterCharge] RemainTime=2915
+[21:51:11.618]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:51:11.619]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2975
+[21:51:11.620]|[3284]|[Info]|jsNotify code=4
+[21:51:11.621]|[3284]|[Warning]|ThreadMgr[RenterCharge] Func[ProcOrderStatus] timeout, spend 2891 ms,OwnThreadId=0x350c.
+[21:51:11.626]|[074c]|[Info]|webNotify code=7
+[21:51:11.626]|[074c]|[Info]|webNotify code=4
+[21:51:13.134]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:51:13.134]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 14828 ms,OwnThreadId=0x24cc.
+[21:51:13.450]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:51:33.227]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:51:33.227]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 19906 ms,OwnThreadId=0x24cc.
+[21:51:33.391]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:51:45.033]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:51:45.034]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 11781 ms,OwnThreadId=0x24cc.
+[21:51:48.415]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:51:49.237]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:51:49.237]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 953 ms,OwnThreadId=0x24cc.
+[21:51:56.517]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4937 ms,OwnThreadId=0x0614.
+[21:52:03.405]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:52:04.214]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:52:04.214]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 922 ms,OwnThreadId=0x24cc.
+[21:52:08.895]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:52:08.897]|[3284]|[Info]|jsNotify code=7
+[21:52:08.897]|[3284]|[Info]|[RenterCharge] RemainTime=2859
+[21:52:08.897]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:52:08.898]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2919
+[21:52:08.899]|[3284]|[Info]|jsNotify code=4
+[21:52:08.904]|[074c]|[Info]|webNotify code=7
+[21:52:08.904]|[074c]|[Info]|webNotify code=4
+[21:52:18.434]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:52:19.247]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:52:19.247]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 938 ms,OwnThreadId=0x24cc.
+[21:52:33.473]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:52:34.138]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:52:34.138]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 828 ms,OwnThreadId=0x24cc.
+[21:52:48.457]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:52:49.125]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:52:49.125]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:52:56.634]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5046 ms,OwnThreadId=0x0614.
+[21:53:03.470]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:53:04.127]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:53:04.127]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:53:08.923]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:53:08.926]|[3284]|[Info]|jsNotify code=7
+[21:53:08.926]|[3284]|[Info]|[RenterCharge] RemainTime=2799
+[21:53:08.926]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:53:08.928]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2859
+[21:53:08.929]|[3284]|[Info]|jsNotify code=4
+[21:53:08.931]|[074c]|[Info]|webNotify code=7
+[21:53:08.931]|[074c]|[Info]|webNotify code=4
+[21:53:18.525]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:53:19.199]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:53:19.199]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 828 ms,OwnThreadId=0x24cc.
+[21:53:33.522]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:53:34.124]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:53:34.125]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 735 ms,OwnThreadId=0x24cc.
+[21:53:48.538]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:53:49.205]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:53:49.205]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[21:53:57.370]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5750 ms,OwnThreadId=0x0614.
+[21:54:03.548]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:54:04.069]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:54:04.069]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 656 ms,OwnThreadId=0x24cc.
+[21:54:08.933]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:54:08.935]|[3284]|[Info]|jsNotify code=7
+[21:54:08.935]|[3284]|[Info]|[RenterCharge] RemainTime=2739
+[21:54:08.935]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:54:08.937]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2799
+[21:54:08.937]|[074c]|[Info]|webNotify code=7
+[21:54:08.938]|[3284]|[Info]|jsNotify code=4
+[21:54:08.949]|[074c]|[Info]|webNotify code=4
+[21:54:18.572]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:54:19.298]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:54:19.298]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 860 ms,OwnThreadId=0x24cc.
+[21:54:33.596]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:54:34.228]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:54:34.228]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:54:48.606]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:54:49.306]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:54:49.306]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 843 ms,OwnThreadId=0x24cc.
+[21:54:57.479]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5859 ms,OwnThreadId=0x0614.
+[21:55:03.622]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:55:04.151]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:55:04.152]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[21:55:08.960]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:55:08.962]|[3284]|[Info]|jsNotify code=7
+[21:55:08.963]|[3284]|[Info]|[RenterCharge] RemainTime=2678
+[21:55:08.963]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:55:08.964]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2738
+[21:55:08.967]|[3284]|[Info]|jsNotify code=4
+[21:55:08.971]|[074c]|[Info]|webNotify code=7
+[21:55:08.971]|[074c]|[Info]|webNotify code=4
+[21:55:18.660]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:55:19.411]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:55:19.411]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:55:33.673]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:55:34.416]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:55:34.416]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:55:48.694]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:55:49.451]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:55:49.451]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 891 ms,OwnThreadId=0x24cc.
+[21:55:57.338]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5704 ms,OwnThreadId=0x0614.
+[21:56:03.703]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:56:04.386]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:56:04.386]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 828 ms,OwnThreadId=0x24cc.
+[21:56:09.006]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:56:09.008]|[3284]|[Info]|jsNotify code=7
+[21:56:09.008]|[3284]|[Info]|[RenterCharge] RemainTime=2618
+[21:56:09.009]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:56:09.010]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2678
+[21:56:09.011]|[3284]|[Info]|jsNotify code=4
+[21:56:09.017]|[074c]|[Info]|webNotify code=7
+[21:56:09.017]|[074c]|[Info]|webNotify code=4
+[21:56:18.735]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:56:19.343]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:56:19.343]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[21:56:33.748]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:56:34.307]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:56:34.307]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[21:56:48.786]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:56:49.594]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:56:49.594]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 954 ms,OwnThreadId=0x24cc.
+[21:56:57.427]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5766 ms,OwnThreadId=0x0614.
+[21:57:03.790]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:57:04.452]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:57:04.452]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[21:57:08.991]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:57:08.995]|[3284]|[Info]|jsNotify code=7
+[21:57:08.995]|[3284]|[Info]|[RenterCharge] RemainTime=2558
+[21:57:08.995]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:57:08.996]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2618
+[21:57:08.997]|[3284]|[Info]|jsNotify code=4
+[21:57:09.004]|[074c]|[Info]|webNotify code=7
+[21:57:09.004]|[074c]|[Info]|webNotify code=4
+[21:57:18.793]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:57:19.254]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:57:19.254]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 578 ms,OwnThreadId=0x24cc.
+[21:57:33.837]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:57:34.442]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:57:34.442]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 734 ms,OwnThreadId=0x24cc.
+[21:57:48.868]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:57:49.520]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:57:49.520]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:57:57.464]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5797 ms,OwnThreadId=0x0614.
+[21:58:03.875]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:58:04.469]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:58:04.469]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 735 ms,OwnThreadId=0x24cc.
+[21:58:09.062]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:58:09.066]|[3284]|[Info]|jsNotify code=7
+[21:58:09.066]|[3284]|[Info]|[RenterCharge] RemainTime=2498
+[21:58:09.067]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:58:09.069]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2558
+[21:58:09.070]|[3284]|[Info]|jsNotify code=4
+[21:58:09.077]|[074c]|[Info]|webNotify code=7
+[21:58:09.077]|[074c]|[Info]|webNotify code=4
+[21:58:18.883]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:58:19.297]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:58:19.297]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 547 ms,OwnThreadId=0x24cc.
+[21:58:33.896]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:58:34.352]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:58:34.352]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 594 ms,OwnThreadId=0x24cc.
+[21:58:48.922]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:58:49.558]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:58:49.559]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 781 ms,OwnThreadId=0x24cc.
+[21:58:57.375]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5672 ms,OwnThreadId=0x0614.
+[21:59:03.934]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:59:04.565]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:59:04.565]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[21:59:09.083]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[21:59:09.085]|[3284]|[Info]|jsNotify code=7
+[21:59:09.085]|[3284]|[Info]|[RenterCharge] RemainTime=2438
+[21:59:09.085]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[21:59:09.088]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2498
+[21:59:09.090]|[3284]|[Info]|jsNotify code=4
+[21:59:09.093]|[074c]|[Info]|webNotify code=7
+[21:59:09.093]|[074c]|[Info]|webNotify code=4
+[21:59:18.958]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:59:19.494]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:59:19.495]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 672 ms,OwnThreadId=0x24cc.
+[21:59:33.992]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:59:34.600]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:59:34.601]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 750 ms,OwnThreadId=0x24cc.
+[21:59:49.014]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[21:59:49.669]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[21:59:49.669]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[21:59:57.470]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 5750 ms,OwnThreadId=0x0614.
+[22:00:04.034]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[22:00:04.700]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[22:00:04.700]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 797 ms,OwnThreadId=0x24cc.
+[22:00:09.036]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[22:00:09.039]|[3284]|[Info]|jsNotify code=7
+[22:00:09.039]|[3284]|[Info]|[RenterCharge] RemainTime=2378
+[22:00:09.039]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[22:00:09.041]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2438
+[22:00:09.043]|[3284]|[Info]|jsNotify code=4
+[22:00:09.050]|[074c]|[Info]|webNotify code=7
+[22:00:09.050]|[074c]|[Info]|webNotify code=4
+[22:00:19.052]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[22:00:19.682]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[22:00:19.682]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 765 ms,OwnThreadId=0x24cc.
+[22:00:34.090]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[22:00:34.743]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[22:00:34.743]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 813 ms,OwnThreadId=0x24cc.
+[22:00:49.065]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[22:00:49.673]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[22:00:49.673]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 703 ms,OwnThreadId=0x24cc.
+[22:00:56.616]|[0614]|[Warning]|ThreadMgr[SafeCheckMgr] Func[OnTimer TimerId=0] timeout, spend 4906 ms,OwnThreadId=0x0614.
+[22:01:04.074]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[22:01:04.651]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[22:01:04.651]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 687 ms,OwnThreadId=0x24cc.
+[22:01:09.073]|[3284]|[Warning]|[RenterCharge] ParseJson Unknow Type=7, NeedType=4, Key=data.
+[22:01:09.074]|[3284]|[Info]|jsNotify code=7
+[22:01:09.074]|[3284]|[Info]|[RenterCharge] RemainTime=2318
+[22:01:09.074]|[3284]|[Info]|[RentDrvMgr] SetGameOrderInfo
+[22:01:09.076]|[3284]|[Info]|[SWZHHelperMgr] SetConfig gameid=11004 param=time=2378
+[22:01:09.077]|[3284]|[Info]|jsNotify code=4
+[22:01:09.082]|[074c]|[Info]|webNotify code=7
+[22:01:09.082]|[074c]|[Info]|webNotify code=4
+[22:01:19.096]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[22:01:19.707]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[22:01:19.707]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 719 ms,OwnThreadId=0x24cc.
+[22:01:34.196]|[24cc]|[Info]|[ScreenCaptureMgr] ScreenShotToData ret=1
+[22:01:34.941]|[24cc]|[Info]|[ScreenCaptureMgr] UploadFileData to oss status=1
+[22:01:34.942]|[24cc]|[Warning]|ThreadMgr[ScreenCaptureMgr] Func[OnTimer TimerId=0] timeout, spend 922 ms,OwnThreadId=0x24cc.
